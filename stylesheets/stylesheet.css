@@ -247,6 +247,12 @@ a {
 
 /*Excel Table Styles*/
 
+ table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    width: 70%;
+  }
+
     <!--table {}
 .style0
   {text-align:general;
