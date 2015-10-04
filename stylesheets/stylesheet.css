@@ -61,11 +61,11 @@ a {
 
 @media screen and (min-width: 64em) {
   .page-header {
-    padding: 5rem 6rem; } }
+    padding: 1rem 6rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
-    padding: 3rem 4rem; } }
+    padding: 1rem 6rem; } }
 
 @media screen and (max-width: 42em) {
   .page-header {
@@ -243,3 +243,49 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+
+/*Excel Table Styles*/
+
+    <!--table {}
+.style0
+  {text-align:general;
+  vertical-align:bottom;
+  white-space:nowrap;}
+td
+  {padding:0px;
+  font-size:11.0pt;
+  font-weight:400;
+  font-style:normal;
+  text-decoration:none;
+  text-align:general;
+  vertical-align:bottom;
+  border:none;
+  white-space:nowrap;}
+.xl24
+  {color:black;
+  font-weight:700;}
+.xl25
+  {color:black;
+  font-weight:700;
+  text-align:left;}
+.xl26
+  {color:black;}
+.xl27
+  {color:black;}
+.xl28
+  {color:black;
+  text-align:right;}
+.xl29
+  {color:black;}
+ruby
+  {ruby-align:left;}
+rt
+  {color:black;
+  font-size:8.0pt;
+  font-weight:400;
+  font-style:normal;
+  text-decoration:none;
+  font-family:Verdana;
+  display:none;}
+-->
