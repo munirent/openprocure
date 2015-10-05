@@ -28,7 +28,7 @@
   type: City
   threshold: $25,000
   population: 622,104
-  url: 'http://archive.baltimoreagency.gov/Portals/0/Charter%20and%20Codes/ChrtrPLL/01%20-%20Charter.pdf'
+  url: 'http://archive.baltimorecity.gov/Portals/0/Charter%20and%20Codes/ChrtrPLL/01%20-%20Charter.pdf#page=138'
 - agency: City of Atlanta
   state: GA
   type: City
@@ -58,8 +58,9 @@
 - agency: City of Chicago
   state: IL
   type: CIty
-  threshold: $100,000
-  population: 2720000
+  threshold: $10,000
+  population: 2,722,389
+  url: 'http://www.cityofchicago.org/dam/city/depts/dps/Outreach/ProcurementFundamentalsGuideMay262010.pdf#page=10'
 - agency: City of Denver
   state: CO
   type: City
@@ -226,7 +227,8 @@
   state: CA
   type: City
   threshold: $30,000
-  population: 105000
+  population: 106,780
+  url: 'http://www.cityoftemecula.org/NR/rdonlyres/33A01115-430F-40DF-9B55-E90D068B0DDF/0/PurchasingLimits.p'
 - agency: City of Tulsa
   state: OK
   type: City
