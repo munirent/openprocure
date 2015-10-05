@@ -1,21 +1,24 @@
-<table class="center">
-
-<tr height=15>
-<td height=15 class=xl24 width=87>City</td>
-<td class=xl24 width=87>State</td>
-<td class=xl24 width=87>Agency Type</td>
-<td class=xl24 width=87>Threshold</td>
-<td class=xl25 width=87>Population</td>
-</tr>
-<% data.procurement.each do |procurement| %>
-<tr height=15>
-  <td height=15 class=xl26><%= procurement.city %></td>
-  <td class=xl26><%= procurement.state %></td>
-  <td class=xl26><%= procurement.type %></td>
-  <td class=xl27 align=right><%= procurement.threshold %></td>
-  <td class=xl28><%= number_to_delimited(procurement.population) %></td>
-</tr>
-<% end %>
-</table>
-
-
+<div class="table-center">
+  <table class="center" id="procurement-table">
+    <thead>
+      <tr>
+        <th class="xl24">City</th>
+        <th class="xl24">State</th>
+        <th class="xl24">Agency Type</th>
+        <th class="xl24">Threshold</th>
+        <th class="xl25">Population</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% data.procurement.each do |procurement| %>
+        <tr>
+          <td class="xl26"><%= procurement.city %></td>
+          <td class="xl26"><%= procurement.state %></td>
+          <td class="xl26"><%= procurement.type %></td>
+          <td class="xl28"><%= procurement.threshold %></td>
+          <td class="xl28"><%= number_to_delimited(procurement.population) %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>

@@ -1,3 +1,10 @@
-@import "normalize";
-@import "stylesheet";
-@import "github-light";
+// External stylesheets
+//
+//= require normalize
+//= require stylesheet
+//= require github-light
+//
+// Bower components
+//= require dynatable/jquery.dynatable
+//
+//= require procurement-table

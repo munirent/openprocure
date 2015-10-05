@@ -176,8 +176,7 @@ a {
   .main-content blockquote > :last-child {
     margin-bottom: 0; }
 .main-content table {
-  display: block;
-  width: 100%;
+  display: inline-block;
   overflow: auto;
   word-break: normal;
   word-break: keep-all; }
@@ -250,7 +249,12 @@ a {
  table.center {
     margin-left:auto; 
     margin-right:auto;
-    width: 70%;
+  }
+  @media screen and (min-width: 900px) {
+   table.center {
+      width: 80%;
+      display: block;
+    }
   }
 
     <!--table {}

@@ -3,5 +3,6 @@
   "description": "Open Source list of Public Agencies Procurement Thresholds",
   "version": "1.0.0",
   "dependencies": {
+    "dynatable": "~0.3.1"
   }
 }
