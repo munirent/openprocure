@@ -252,7 +252,7 @@ a {
   }
   @media screen and (min-width: 900px) {
    table.center {
-      width: 80%;
+      width: 100%;
       display: block;
     }
   }

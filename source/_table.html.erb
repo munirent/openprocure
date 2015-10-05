@@ -7,6 +7,7 @@
         <th>Agency Type</th>
         <th class="column-number" data-dynatable-sorts="threshold-num">Threshold</th>
         <th class="column-number" data-dynatable-sorts="population-num">Population</th>
+        <th>Link</th>
       </tr>
     </thead>
     <tbody>
@@ -17,6 +18,7 @@
           <td><%= procurement.type %></td>
           <td class="column-number"><%= procurement.threshold %></td>
           <td class="column-number"><%= number_to_delimited(procurement.population) %></td>
+          <td><%= link_to truncate(procurement.url, :length => 20), procurement.url %></td>
         </tr>
       <% end %>
     </tbody>
