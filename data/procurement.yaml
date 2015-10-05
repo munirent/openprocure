@@ -1,0 +1,216 @@
+---
+- city: Atlanta
+  state: GA
+  type: City
+  threshold: $20,000
+  population: 440000
+- city: Austin
+  state: TX
+  type: City
+  threshold: $53,000
+  population: 840000
+- city: Boston
+  state: MA
+  type: City
+  threshold: $25,000
+  population: 640000
+- city: Charlotte
+  state: NC
+  type: City
+  threshold: $100,000
+  population: 780000
+- city: Chattanooga
+  state: TN
+  type: City
+  threshold: $25,000
+  population: 170000
+- city: Chicago
+  state: IL
+  type: CIty
+  threshold: $100,000
+  population: 2720000
+- city: Denver
+  state: CO
+  type: City
+  threshold: $25,000
+  population: 630000
+- city: Detroit
+  state: MI
+  type: City
+  threshold: $25,000
+  population: 700000
+- city: Honolulu
+  state: HI
+  type: City
+  threshold: $100,000
+  population: 375000
+- city: Kansas City
+  state: KS
+  type: City
+  threshold: $20,000
+  population: 150000
+- city: Las Vegas
+  state: NV
+  type: City
+  threshold: $50,000
+  population: 600000
+- city: Lexington
+  state: KY
+  type: City
+  threshold: $25,000
+  population: 300000
+- city: Long Beach
+  state: CA
+  type: City
+  threshold: $100,000
+  population: 470000
+- city: Louisville
+  state: KY
+  type: City
+  threshold: $20,000
+  population: 250000
+- city: Macon
+  state: GA
+  type: City
+  threshold: $10,000
+  population: 90000
+- city: Mesa
+  state: AZ
+  type: City
+  threshold: $25,000
+  population: 450000
+- city: New Orleans
+  state: LA
+  type: City
+  threshold: $15,000
+  population: 370000
+- city: New York
+  state: NY
+  type: CIty
+  threshold: $100,000
+  population: 8340000
+- city: Oakland
+  state: CA
+  type: City
+  threshold: $25,000
+  population: 400000
+- city: Philadelphia
+  state: PA
+  type: City
+  threshold: $30,000
+  population: 1500000
+- city: San Antonio
+  state: TX
+  type: City
+  threshold: $50,000
+  population: 1380000
+- city: San Francisco
+  state: CA
+  type: City
+  threshold: $10,000
+  population: 830000
+- city: San Mateo
+  state: CA
+  type: County
+  threshold: $100,000
+  population: 740000
+- city: Santa Cruz
+  state: CA
+  type: City
+  threshold: $100,000
+  population: 60000
+- city: Seattle
+  state: WA
+  type: City
+  threshold: $47,000
+  population: 630000
+- city: South Bend
+  state: IN
+  type: City
+  threshold: $75,000
+  population: 100000
+- city: Rhode Island
+  state: RI
+  type: State
+  threshold: $500,000
+  population: 1050000
+- city: Alexandria
+  state: VA
+  type: City
+  threshold: $50,000
+  population: 4031000
+- city: Colorado Springs
+  state: CO
+  type: City
+  threshold: $100,000
+  population: 432000
+- city: Danbury
+  state: CT
+  type: City
+  threshold: $5,000
+  population: 83000
+- city: Des Moines
+  state: IA
+  type: City
+  threshold: $25,000
+  population: 207000
+- city: Fort Worth
+  state: TX
+  type: City
+  threshold: $50,000
+  population: 778000
+- city: Houston
+  state: TX
+  type: City
+  threshold: $50,000
+  population: 2161000
+- city: New Haven
+  state: CT
+  type: City
+  threshold: $10,000
+  population: 131000
+- city: Oklahoma City
+  state: OK
+  type: City
+  threshold: $25,000
+  population: 600000
+- city: Pittsburgh
+  state: PA
+  type: City
+  threshold: $30,000
+  population: 306000
+- city: Sacramento
+  state: CA
+  type: County
+  threshold: $100,000
+  population: 476000
+- city: Salt Lake
+  state: UT
+  type: City
+  threshold: $40,000
+  population: 189000
+- city: San Diego
+  state: CA
+  type: City
+  threshold: $50,000
+  population: 1338000
+- city: Stamford
+  state: CT
+  type: City
+  threshold: $25,000
+  population: 125000
+- city: Temecula
+  state: CA
+  type: City
+  threshold: $30,000
+  population: 105000
+- city: Tulsa
+  state: OK
+  type: City
+  threshold: $25,000
+  population: 394000
+- city: Virginia Beach
+  state: VA
+  type: City
+  threshold: $50,000
+  population: 448000

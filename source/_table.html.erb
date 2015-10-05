@@ -1,0 +1,21 @@
+<table class="center">
+
+<tr height=15>
+<td height=15 class=xl24 width=87>City</td>
+<td class=xl24 width=87>State</td>
+<td class=xl24 width=87>Agency Type</td>
+<td class=xl24 width=87>Threshold</td>
+<td class=xl25 width=87>Population</td>
+</tr>
+<% data.procurement.each do |procurement| %>
+<tr height=15>
+  <td height=15 class=xl26><%= procurement.city %></td>
+  <td class=xl26><%= procurement.state %></td>
+  <td class=xl26><%= procurement.type %></td>
+  <td class=xl27 align=right><%= procurement.threshold %></td>
+  <td class=xl28><%= number_to_delimited(procurement.population) %></td>
+</tr>
+<% end %>
+</table>
+
+
