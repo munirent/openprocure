@@ -128,8 +128,9 @@
 - agency: City of Philadelphia
   state: PA
   type: City
-  threshold: $30,000
-  population: 1500000
+  threshold: $10,000
+  population: 1,560,297
+  url: 'http://www.phila.gov/phils/docs/otherinfo/089/vendor.htm#III'
 - agency: City of San Antonio
   state: TX
   type: City
