@@ -1,14 +1,17 @@
-# Procurify
+# Open Procure
 ## Open Source list of Public Agencies Procurement Thresholds
 
-See it live at http://procurify.us/
+See it live at http://openprocure.us/
 
 The static pages are in the gh-pages branch and the Middleman template is
 in the master branch.
 
 ### To add procurement thresholds
 
-Edit `data/procurement.yaml` and submit a Pull Request
+[Edit `data/procurement.yaml` directly on GitHub](edit-link) or fork the
+repository and submit a pull request.
+
+[edit-link]: https://github.com/munirent/openprocure/edit/master/data/procurement.yaml
 
 ### To install
 
@@ -20,7 +23,7 @@ Edit `data/procurement.yaml` and submit a Pull Request
 
 `middleman`
 
-### To deploy
+### To deploy changes
 
 `rake deploy`
 
