@@ -42,8 +42,9 @@
 - agency: City of Boston
   state: MA
   type: City
-  threshold: $25,000
-  population: 640000
+  threshold: $5,000
+  population: 645,966
+  url: 'http://www.cityofboston.gov/procurement/information/'
 - agency: City of Charlotte
   state: NC
   type: City
