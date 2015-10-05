@@ -1,0 +1,8 @@
+# Ignore the static HTML folder
+build/
+
+# Ignore Vim swap files
+*.swp
+*.swo
+*.swn
+
