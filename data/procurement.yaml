@@ -161,7 +161,7 @@
   type: City
   threshold: $75,000
   population: 100000
-- agency: City of Rhode Island
+- agency: State of Rhode Island
   state: RI
   type: State
   threshold: $500,000
