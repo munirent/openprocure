@@ -1,8 +1,16 @@
 module NumberHelper
   DELIMITER_REGEX = /(\d)(?=(\d\d\d)+(?!\d))/
 
+  def number_to_money(number, currency: "$", delimiter: ",", separator: ".")
+    "#{currency}#{number_to_delimited(number, delimiter: delimiter, separator: separator)}"
+  end
+
   def number_to_delimited(number, delimiter: ",", separator: ".")
-    parts(number, delimiter).join(separator)
+    parts(raw_number(number), delimiter).join(separator)
+  end
+
+  def raw_number(number)
+    number.to_s.tr "$, ", ""
   end
 
   private

@@ -1,14 +1,21 @@
 $(document).ready(function() {
+  // Make a plain integer
   function rawNumber(str) {
-    return parseInt(str.replace(/\$|,/g, ""));
+    return Number(str.replace(/\$|,/g, "")) || 0;
   }
 
+  // Save the formatted number and return a plain integer
   function parseFormattedNumber(column) {
     return function(cell, record) {
-      var html = $(cell).html();
+      record[column + "-formatted"] = cell.innerHTML;
+      return rawNumber(cell.innerHTML);
+    }
+  }
 
-      record[column + "-num"] = rawNumber(html);
-      return html;
+  // Write back the saved formatted number
+  function writeFormattedNumber(column) {
+    return function(record) {
+      return record[column + "-formatted"];
     }
   }
 
@@ -22,6 +29,10 @@ $(document).ready(function() {
     readers: {
       threshold: parseFormattedNumber("threshold"),
       population: parseFormattedNumber("population")
-    }
+    },
+    writers: {
+      threshold: writeFormattedNumber("threshold"),
+      population: writeFormattedNumber("population")
+    },
   });
 });
