@@ -8,10 +8,8 @@ in the master branch.
 
 ### To add procurement thresholds
 
-[Edit `data/procurement.yaml` directly on GitHub](edit-link) or fork the
+[Edit `data/procurement.yaml` directly on GitHub](https://github.com/munirent/openprocure/edit/master/data/procurement.yaml) or fork the
 repository and submit a pull request.
-
-[edit-link]: https://github.com/munirent/openprocure/edit/master/data/procurement.yaml
 
 ### To install
 
