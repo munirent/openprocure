@@ -214,8 +214,9 @@
 - agency: City of San Diego
   state: CA
   type: City
-  threshold: $50,000
-  population: 1338000
+  threshold: $25,000
+  population: 1,381,069
+  url: 'http://docs.sandiego.gov/municode/MuniCodeChapter02/Ch02Art02Division32.pdf'
 - agency: City of Stamford
   state: CT
   type: City
