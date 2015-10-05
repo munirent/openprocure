@@ -2,7 +2,7 @@
   <table class="center procurement-table">
     <thead>
       <tr>
-        <th>City</th>
+        <th>Agency</th>
         <th>State</th>
         <th>Agency Type</th>
         <th class="column-number" data-dynatable-sorts="threshold-num">Threshold</th>
@@ -13,7 +13,7 @@
     <tbody>
       <% data.procurement.each do |procurement| %>
         <tr>
-          <td><%= procurement.city %></td>
+          <td><%= procurement.agency %></td>
           <td><%= procurement.state %></td>
           <td><%= procurement.type %></td>
           <td class="column-number"><%= procurement.threshold %></td>

@@ -1,245 +1,235 @@
 ---
-- city: County of Sacramento
+- agency: County of Sacramento
   state: CA
   type: County
   threshold: $10,000
   population: 1,418,788
   url: 'http://www.dgs.saccounty.net/capsd/Pages/County-Purchasing-Code.aspx#2.56.040' 
-- city: Salt Lake City
+- agency: Salt Lake City
   state: UT
   type: City
   threshold: $20,000
   population: 191,180
   url: 'http://www.slcinfobase.com/ppareo/#!WordDocuments/procurementchapter11smallpurchases.htm'
-- city: City of Alameda
+- agency: City of Alameda
   state: CA
   type: City
   threshold: $5,000
   population: 76,419
   url: 'https://www.municode.com/library/ca/alameda/codes/code_of_ordinances?nodeId=CHIIAD_ARTIVCO_2-59AUCO_2-59.1FOPP'
-- city: City of Palo Alto
+- agency: City of Palo Alto
   state: CA
   type: City
   threshold: $25,000
   population: 66,642
   url: 'http://www.amlegal.com/nxt/gateway.dll/California/paloalto_ca/title2administrativecode*/chapter230contractsandpurchasingprocedur?f=templates$fn=altmain-nf.htm$q=[field%20folio-destination-name:%272.30.200%27]$x=Advanced#JD_2.30.200'
-- city: City of Baltimore
+- agency: City of Baltimore
   state: MD
   type: City
   threshold: $25,000
   population: 622,104
-  url: 'http://archive.baltimorecity.gov/Portals/0/Charter%20and%20Codes/ChrtrPLL/01%20-%20Charter.pdf'
-- city: Atlanta
+  url: 'http://archive.baltimoreagency.gov/Portals/0/Charter%20and%20Codes/ChrtrPLL/01%20-%20Charter.pdf'
+- agency: City of Atlanta
   state: GA
   type: City
   threshold: $20,000
   population: 440000
-- city: Austin
+- agency: City of Austin
   state: TX
   type: City
   threshold: $53,000
   population: 840000
-- city: Boston
+- agency: City of Boston
   state: MA
   type: City
   threshold: $25,000
   population: 640000
-- city: Charlotte
+- agency: City of Charlotte
   state: NC
   type: City
   threshold: $100,000
   population: 780000
-- city: Chattanooga
+- agency: City of Chattanooga
   state: TN
   type: City
   threshold: $25,000
   population: 170000
-- city: Chicago
+- agency: City of Chicago
   state: IL
   type: CIty
   threshold: $100,000
   population: 2720000
-- city: Denver
+- agency: City of Denver
   state: CO
   type: City
   threshold: $25,000
   population: 630000
-- city: Detroit
+- agency: City of etroit
   state: MI
   type: City
   threshold: $25,000
   population: 700000
-- city: Honolulu
+- agency: City of Honolulu
   state: HI
   type: City
   threshold: $100,000
   population: 375000
-- city: Kansas City
+- agency: City of Kansas City
   state: KS
   type: City
   threshold: $20,000
   population: 150000
-- city: Las Vegas
+- agency: City of Las Vegas
   state: NV
   type: City
   threshold: $50,000
   population: 600000
-- city: Lexington
+- agency: City of Lexington
   state: KY
   type: City
   threshold: $25,000
   population: 300000
-- city: Long Beach
+- agency: City of Long Beach
   state: CA
   type: City
   threshold: $100,000
   population: 470000
-- city: Louisville
+- agency: City of Louisville
   state: KY
   type: City
   threshold: $20,000
   population: 250000
-- city: Macon
+- agency: City of Macon
   state: GA
   type: City
   threshold: $10,000
   population: 90000
-- city: Mesa
+- agency: City of Mesa
   state: AZ
   type: City
   threshold: $25,000
   population: 450000
-- city: New Orleans
+- agency: City of New Orleans
   state: LA
   type: City
   threshold: $15,000
   population: 370000
-- city: New York
+- agency: City of New York
   state: NY
-  type: CIty
+  type: City
   threshold: $100,000
   population: 8340000
-- city: Oakland
+- agency: City of Oakland
   state: CA
   type: City
   threshold: $25,000
   population: 400000
-- city: Philadelphia
+- agency: City of Philadelphia
   state: PA
   type: City
   threshold: $30,000
   population: 1500000
-- city: San Antonio
+- agency: City of San Antonio
   state: TX
   type: City
   threshold: $50,000
   population: 1380000
-- city: San Francisco
+- agency: City of San Francisco
   state: CA
   type: City
   threshold: $10,000
   population: 830000
-- city: San Mateo
+- agency: City of San Mateo
   state: CA
   type: County
   threshold: $100,000
   population: 740000
-- city: Santa Cruz
+- agency: City of Santa Cruz
   state: CA
   type: City
   threshold: $100,000
   population: 60000
-- city: Seattle
+- agency: City of Seattle
   state: WA
   type: City
   threshold: $47,000
   population: 630000
-- city: South Bend
+- agency: City of South Bend
   state: IN
   type: City
   threshold: $75,000
   population: 100000
-- city: Rhode Island
+- agency: City of Rhode Island
   state: RI
   type: State
   threshold: $500,000
   population: 1050000
-- city: Alexandria
+- agency: City of Alexandria
   state: VA
   type: City
   threshold: $50,000
   population: 4031000
-- city: Colorado Springs
+- agency: City of Colorado Springs
   state: CO
   type: City
   threshold: $100,000
   population: 432000
-- city: Danbury
+- agency: City of Danbury
   state: CT
   type: City
   threshold: $5,000
   population: 83000
-- city: Des Moines
+- agency: City of Des Moines
   state: IA
   type: City
   threshold: $25,000
   population: 207000
-- city: Fort Worth
+- agency: City of Fort Worth
   state: TX
   type: City
   threshold: $50,000
   population: 778000
-- city: Houston
+- agency: City of Houston
   state: TX
   type: City
   threshold: $50,000
   population: 2161000
-- city: New Haven
+- agency: City of New Haven
   state: CT
   type: City
   threshold: $10,000
   population: 131000
-- city: Oklahoma City
+- agency: City of Oklahoma City
   state: OK
   type: City
   threshold: $25,000
   population: 600000
-- city: Pittsburgh
+- agency: City of Pittsburgh
   state: PA
   type: City
   threshold: $30,000
   population: 306000
-- city: Sacramento
-  state: CA
-  type: County
-  threshold: $100,000
-  population: 476000
-- city: Salt Lake
-  state: UT
-  type: City
-  threshold: $40,000
-  population: 189000
-- city: San Diego
+- agency: City of San Diego
   state: CA
   type: City
   threshold: $50,000
   population: 1338000
-- city: Stamford
+- agency: City of Stamford
   state: CT
   type: City
   threshold: $25,000
   population: 125000
-- city: Temecula
+- agency: City of Temecula
   state: CA
   type: City
   threshold: $30,000
   population: 105000
-- city: Tulsa
+- agency: City of Tulsa
   state: OK
   type: City
   threshold: $25,000
   population: 394000
-- city: Virginia Beach
+- agency: City of Virginia Beach
   state: VA
   type: City
   threshold: $50,000
