@@ -1,22 +1,22 @@
 <div class="table-center">
-  <table class="center" id="procurement-table">
+  <table class="center procurement-table">
     <thead>
       <tr>
-        <th class="xl24">City</th>
-        <th class="xl24">State</th>
-        <th class="xl24">Agency Type</th>
-        <th class="xl24">Threshold</th>
-        <th class="xl25">Population</th>
+        <th>City</th>
+        <th>State</th>
+        <th>Agency Type</th>
+        <th class="column-number" data-dynatable-sorts="threshold-num">Threshold</th>
+        <th class="column-number" data-dynatable-sorts="population-num">Population</th>
       </tr>
     </thead>
     <tbody>
       <% data.procurement.each do |procurement| %>
         <tr>
-          <td class="xl26"><%= procurement.city %></td>
-          <td class="xl26"><%= procurement.state %></td>
-          <td class="xl26"><%= procurement.type %></td>
-          <td class="xl28"><%= procurement.threshold %></td>
-          <td class="xl28"><%= number_to_delimited(procurement.population) %></td>
+          <td><%= procurement.city %></td>
+          <td><%= procurement.state %></td>
+          <td><%= procurement.type %></td>
+          <td class="column-number"><%= procurement.threshold %></td>
+          <td class="column-number"><%= number_to_delimited(procurement.population) %></td>
         </tr>
       <% end %>
     </tbody>

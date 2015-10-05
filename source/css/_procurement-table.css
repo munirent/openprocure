@@ -1,9 +1,14 @@
-.table-center {
-  text-align: center;
+.procurement-table thead th {
+  font-weight: bold;
+  color: #000;
 }
 
-.dynatable-per-page, .dynatable-pagination-links {
-  display: none;
+.procurement-table .column-number {
+  text-align: right;
+}
+
+.table-center {
+  text-align: center;
 }
 
 th a, th a:hover {

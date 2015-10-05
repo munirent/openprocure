@@ -1,8 +1,7 @@
 # Procurify
 ## Open Source list of Public Agencies Procurement Thresholds
-----------------------------------------------
 
-See it live at http://munirent.github.io/procurify/
+See it live at http://procurify.us/
 
 The static pages are in the gh-pages branch and the Middleman template is
 in the master branch.

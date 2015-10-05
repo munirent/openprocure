@@ -3,4 +3,4 @@
 // Bower components
 //= require dynatable/jquery.dynatable
 //
-//= require procurement-table
+//= require _procurement-table
