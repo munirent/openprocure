@@ -1,0 +1,5 @@
+headers = data.procurement.first.keys
+csv << headers
+data.procurement.each do |agency|
+  csv << agency.values
+end

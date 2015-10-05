@@ -6,8 +6,7 @@
 </section>
 
 <section class="main-content">
-  <h3>
-    <a id="welcome" class="anchor" href="#welcome" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to <%= data.project.name %></h3>
+  <h3><a id="welcome" class="anchor" href="#welcome" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to <%= data.project.name %></h3>
 
   <p><%= data.project.name %> is a list of procurement thresholds in dollars for local government.
     This guide identifies the dollar amount under which a city can purchase a product or a service
@@ -16,6 +15,7 @@
 
   <%= partial "table" %>
 
-  <%= partial "footer" %>
+  <h3><%= link_to "Download all data in CSV format", "procurement.csv" %></h3>
 
+  <%= partial "footer" %>
 </section>

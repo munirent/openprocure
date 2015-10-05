@@ -63,6 +63,8 @@ after_configuration do
   sprockets.append_path File.join root, 'bower_components'
 end
 
+# For generating CSV
+page '/*.csv', layout: false
 
 # Build-specific configuration
 configure :build do
