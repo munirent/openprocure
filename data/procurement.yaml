@@ -65,7 +65,7 @@
   type: City
   threshold: $25,000
   population: 630000
-- agency: City of etroit
+- agency: City of Detroit
   state: MI
   type: City
   threshold: $25,000
