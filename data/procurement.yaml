@@ -65,7 +65,8 @@
   state: CO
   type: City
   threshold: $25,000
-  population: 630000
+  population: 649,495
+  url: 'https://www.denvergov.org/Portals/573/documents/HowToDoBusinessWithCCD_BidNet_ORD_Rev01_04182014.pdf#page=8'
 - agency: City of Detroit
   state: MI
   type: City
