@@ -140,7 +140,7 @@
   type: City
   threshold: $10,000
   population: 830000
-- agency: City of San Mateo
+- agency: County of San Mateo
   state: CA
   type: County
   threshold: $100,000
