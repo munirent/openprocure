@@ -7,6 +7,7 @@
         <th class="xl24">Agency Type</th>
         <th class="xl24">Threshold</th>
         <th class="xl25">Population</th>
+        <th class="xl25">Link</th>
       </tr>
     </thead>
     <tbody>
@@ -17,6 +18,7 @@
           <td class="xl26"><%= procurement.type %></td>
           <td class="xl28"><%= procurement.threshold %></td>
           <td class="xl28"><%= number_to_delimited(procurement.population) %></td>
+          <td class="xl28"><%= link_to truncate(procurement.url, :length => 20), procurement.url %></td>
         </tr>
       <% end %>
     </tbody>
