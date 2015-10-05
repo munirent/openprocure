@@ -1,0 +1,5 @@
+---
+name: Procurify
+tagline: Open Source list of Public Agencies Procurement Thresholds
+repository_url: https://github.com/munirent/procurify
+edit_url: https://github.com/munirent/procurify/edit/master/data/procurement.yaml

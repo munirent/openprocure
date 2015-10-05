@@ -1,18 +1,21 @@
 <section class="page-header">
-  <h1 class="project-name">Procurify</h1>
-  <h2 class="project-tagline">Open Source list of Public Agencies Procurement Thresholds </h2>
-  <a href="https://github.com/munirent/procurify" class="btn">View on GitHub</a>
+  <h1 class="project-name"><%= data.project.name %></h1>
+  <h2 class="project-tagline"><%= data.project.tagline %></h2>
+  <%= link_to "View on GitHub", data.project.repository_url, class: "btn" %>
+  <%= link_to "Contribute to the data", data.project.edit_url, class: "btn" %>
 </section>
 
 <section class="main-content">
   <h3>
-<a id="welcome-to-procurify" class="anchor" href="#welcome-to-procurify" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to Procurify.</h3>
+    <a id="welcome" class="anchor" href="#welcome" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to <%= data.project.name %></h3>
 
-<p>Procurify is a list of procurement thresholds in dollars for local government.  This guide identifies the dollar amount under which a city can purchase a product or a service without having to solicit competitive bids.</p>
+  <p><%= data.project.name %> is a list of procurement thresholds in dollars for local government.
+    This guide identifies the dollar amount under which a city can purchase a product or a service
+    without having to solicit competitive bids.
+  </p>
 
-<%= partial "table" %>
+  <%= partial "table" %>
 
-<%= partial "footer" %>
+  <%= partial "footer" %>
 
 </section>
-

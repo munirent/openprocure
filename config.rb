@@ -76,7 +76,11 @@ configure :build do
   activate :asset_hash
 
   # Create favicon/touch icon set from source/favicon_base.png
-  activate :favicon_maker
+  activate :favicon_maker, icons: {
+    "_favicon_source.svg" => [
+      { icon: "favicon.ico", size: "64x64,32x32,24x24,16x16" }
+    ]
+  }
 
   # Use relative URLs
   activate :relative_assets
