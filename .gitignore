@@ -1,6 +1,10 @@
 # Ignore the static HTML folder
 build/
 
+# Ignore folders created by CircleCI
+.bundle/
+vendor/
+
 # Ignore Vim swap files
 *.swp
 *.swo

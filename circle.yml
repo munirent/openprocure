@@ -1,0 +1,12 @@
+test:
+  post:
+    - bundle exec middleman build
+deployment:
+  autodeploy:
+    branch: master
+    commands:
+      - bash autodeploy.sh
+general:
+  branches:
+    ignore:
+      - gh-pages
