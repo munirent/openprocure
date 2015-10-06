@@ -248,3 +248,9 @@
   threshold: $49,999
   population: 672,538
   url: 'http://legacy.elpasotexas.gov/purchasing/ep-bid_policies.asp'
+- agency: Cleveland Metroparks
+  state: OH
+  type: Park District
+  threshold: $50,000
+  population: 390,113
+  url: 'http://www.clevelandmetroparks.com/Main/BiddingProcedures.aspx'
