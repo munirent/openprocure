@@ -2,9 +2,9 @@
 - agency: County of Sacramento
   state: CA
   type: County
-  threshold: $10,000
+  threshold: $100,000
   population: 1,418,788
-  url: 'http://www.dgs.saccounty.net/capsd/Pages/County-Purchasing-Code.aspx#2.56.040' 
+  url: 'http://www.dgs.saccounty.net/capsd/Pages/County-Purchasing-Code.aspx#2.56.250' 
 - agency: Salt Lake City
   state: UT
   type: City
