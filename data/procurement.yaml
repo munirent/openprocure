@@ -242,3 +242,9 @@
   type: City
   threshold: $50,000
   population: 448000
+- agency: City of El Paso
+  state: TX
+  type: City
+  threshold: $49,999
+  population: 672,538
+  url: 'http://legacy.elpasotexas.gov/purchasing/ep-bid_policies.asp'
