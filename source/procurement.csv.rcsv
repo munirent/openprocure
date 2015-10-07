@@ -1,5 +1,5 @@
-headers = data.procurement.first.keys
+headers = unique_keys(data.procurement)
 csv << headers
 data.procurement.each do |agency|
-  csv << agency.values
+  csv << extract_values(agency, headers)
 end
