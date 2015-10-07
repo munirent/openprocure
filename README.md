@@ -25,3 +25,11 @@ repository and submit a pull request.  When adding a PDF as a link, make sure yo
 
 `rake deploy`
 
+## License
+
+To the extent possible under law, MuniRent has waived all copyright and
+related or neighboring rights to Open Procure. This work is published
+from: United States.
+
+[See LICENSE.txt](LICENSE.txt) for more details.
+
