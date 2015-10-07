@@ -1,51 +1,51 @@
-agency,state,type,threshold,population,url
-County of Sacramento,CA,County,"$100,000",1418788,http://www.dgs.saccounty.net/capsd/Pages/County-Purchasing-Code.aspx#2.56.250
-Salt Lake City,UT,City,"$20,000",191180,http://www.slcinfobase.com/ppareo/#!WordDocuments/procurementchapter11smallpurchases.htm
-City of Alameda,CA,City,"$5,000",76419,https://www.municode.com/library/ca/alameda/codes/code_of_ordinances?nodeId=CHIIAD_ARTIVCO_2-59AUCO_2-59.1FOPP
-City of Palo Alto,CA,City,"$25,000",66642,http://www.amlegal.com/nxt/gateway.dll/California/paloalto_ca/title2administrativecode*/chapter230contractsandpurchasingprocedur?f=templates$fn=altmain-nf.htm$q=[field%20folio-destination-name:%272.30.200%27]$x=Advanced#JD_2.30.200
-City of Baltimore,MD,City,"$25,000",622104,http://archive.baltimorecity.gov/Portals/0/Charter%20and%20Codes/ChrtrPLL/01%20-%20Charter.pdf#page=138
-City of Atlanta,GA,City,"$20,000",440000
-City of Austin,TX,City,"$53,000",840000
-City of Boston,MA,City,"$5,000",645966,http://www.cityofboston.gov/procurement/information/
-City of Charlotte,NC,City,"$100,000",780000
-City of Chattanooga,TN,City,"$24,999",173366,http://www.chattanooga.gov/general-services-files/purchasing/PurchasingManual.pdf#page=16
-City of Chicago,IL,CIty,"$10,000",2722389,http://www.cityofchicago.org/dam/city/depts/dps/Outreach/ProcurementFundamentalsGuideMay262010.pdf#page=10
-City of Denver,CO,City,"$25,000",649495,https://www.denvergov.org/Portals/573/documents/HowToDoBusinessWithCCD_BidNet_ORD_Rev01_04182014.pdf#page=8
-City of Detroit,MI,City,"$25,000",700000
-City of Honolulu,HI,City,"$100,000",375000
-City of Kansas City,KS,City,"$20,000",150000
-City of Las Vegas,NV,City,"$50,000",600000
-City of Lexington,KY,City,"$25,000",300000
-City of Long Beach,CA,City,"$100,000",469428,https://www.municode.com/library/ca/long_beach/codes/municipal_code?nodeId=TIT2ADPE_CH2.84CO_DIVIGESUMA_2.84.010AUPUAGOTCO
-City of Louisville,KY,City,"$10,000",253128,http://louisvilleky.gov/sites/default/files/internal_audit/audit_reports/2013-08_lmg_supplier_payment_threshold.pdf#page=9
-City of Macon,GA,City,"$10,000",90000
-City of Mesa,AZ,City,"$25,000",450000
-City of New Orleans,LA,City,"$15,000",370000
-City of New York,NY,City,"$100,000",8340000
-City of Oakland,CA,City,"$25,000",400000
-City of Philadelphia,PA,City,"$10,000",1560297,http://www.phila.gov/phils/docs/otherinfo/089/vendor.htm#III
-City of San Antonio,TX,City,"$50,000",1380000
-City of San Francisco,CA,City,"$10,000",830000
-County of San Mateo,CA,County,"$100,000",740000
-City of Santa Cruz,CA,City,"$100,000",60000
-City of Seattle,WA,City,"$47,000",630000
-City of South Bend,IN,City,"$75,000",100000
-State of Rhode Island,RI,State,"$500,000",1050000
-City of Alexandria,VA,City,"$50,000",4031000
-City of Colorado Springs,CO,City,"$100,000",432000
-City of Danbury,CT,City,"$5,000",83000
-City of Des Moines,IA,City,"$25,000",207000
-City of Fort Worth,TX,City,"$50,000",778000
-City of Houston,TX,City,"$50,000",2161000
-City of New Haven,CT,City,"$10,000",131000
-City of Oklahoma City,OK,City,"$25,000",600000
-City of Pittsburgh,PA,City,"$30,000",306000
-City of San Diego,CA,City,"$25,000",1381069,http://docs.sandiego.gov/municode/MuniCodeChapter02/Ch02Art02Division32.pdf#page=5
-City of Stamford,CT,City,"$25,000",125000
-City of Temecula,CA,City,"$30,000",106780,http://www.cityoftemecula.org/NR/rdonlyres/33A01115-430F-40DF-9B55-E90D068B0DDF/0/PurchasingLimits.p
-City of Tulsa,OK,City,"$25,000",394000
-City of Virginia Beach,VA,City,"$50,000",448000
-City of El Paso,TX,City,"$49,999",672538,http://legacy.elpasotexas.gov/purchasing/ep-bid_policies.asp
-Cleveland Metroparks,OH,Park District,"$50,000",390113,http://www.clevelandmetroparks.com/Main/BiddingProcedures.aspx
-SACOG,CA,Council of Governments,"$50,000",2363791,https://drive.google.com/file/d/0B7xNKjdrpz2mZ25BNWo5bWdyV044Tl9aamVHeVp5TlBfMDhr/view?usp=sharing
-City of Plano,TX,City,"$50,000",274409,https://www.municode.com/library/tx/plano/codes/code_of_ordinances?nodeId=PTIICOOR_CH2AD_ARTIINGE_S2-12PRCO
+agency,state,type,threshold,population,url,contributed_by,updated_at
+County of Sacramento,CA,County,"$100,000",1418788,http://www.dgs.saccounty.net/capsd/Pages/County-Purchasing-Code.aspx#2.56.250,Alan Mond,2015-10-07
+Salt Lake City,UT,City,"$20,000",191180,http://www.slcinfobase.com/ppareo/#!WordDocuments/procurementchapter11smallpurchases.htm,Alan Mond,2015-10-07
+City of Alameda,CA,City,"$5,000",76419,https://www.municode.com/library/ca/alameda/codes/code_of_ordinances?nodeId=CHIIAD_ARTIVCO_2-59AUCO_2-59.1FOPP,Alan Mond,2015-10-07
+City of Palo Alto,CA,City,"$25,000",66642,http://www.amlegal.com/nxt/gateway.dll/California/paloalto_ca/title2administrativecode*/chapter230contractsandpurchasingprocedur?f=templates$fn=altmain-nf.htm$q=[field%20folio-destination-name:%272.30.200%27]$x=Advanced#JD_2.30.200,Alan Mond,2015-10-07
+City of Baltimore,MD,City,"$25,000",622104,http://archive.baltimorecity.gov/Portals/0/Charter%20and%20Codes/ChrtrPLL/01%20-%20Charter.pdf#page=138,Alan Mond,2015-10-07
+City of Atlanta,GA,City,"$20,000",440000,,Kenny Cunanan,2015-01-15
+City of Austin,TX,City,"$53,000",840000,,Kenny Cunanan,2015-01-15
+City of Boston,MA,City,"$5,000",645966,http://www.cityofboston.gov/procurement/information/,Alan Mond,2015-10-07
+City of Charlotte,NC,City,"$100,000",780000,,Kenny Cunanan,2015-01-15
+City of Chattanooga,TN,City,"$24,999",173366,http://www.chattanooga.gov/general-services-files/purchasing/PurchasingManual.pdf#page=16,Alan Mond,2015-10-07
+City of Chicago,IL,CIty,"$10,000",2722389,http://www.cityofchicago.org/dam/city/depts/dps/Outreach/ProcurementFundamentalsGuideMay262010.pdf#page=10,Alan Mond,2015-10-07
+City of Denver,CO,City,"$25,000",649495,https://www.denvergov.org/Portals/573/documents/HowToDoBusinessWithCCD_BidNet_ORD_Rev01_04182014.pdf#page=8,Alan Mond,2015-10-07
+City of Detroit,MI,City,"$25,000",700000,,Kenny Cunanan,2015-01-15
+City of Honolulu,HI,City,"$100,000",375000,,Kenny Cunanan,2015-01-15
+City of Kansas City,KS,City,"$20,000",150000,,Kenny Cunanan,2015-01-15
+City of Las Vegas,NV,City,"$50,000",600000,,Kenny Cunanan,2015-01-15
+City of Lexington,KY,City,"$25,000",300000,,Kenny Cunanan,2015-01-15
+City of Long Beach,CA,City,"$100,000",469428,https://www.municode.com/library/ca/long_beach/codes/municipal_code?nodeId=TIT2ADPE_CH2.84CO_DIVIGESUMA_2.84.010AUPUAGOTCO,Alan Mond,2015-10-07
+City of Louisville,KY,City,"$10,000",253128,http://louisvilleky.gov/sites/default/files/internal_audit/audit_reports/2013-08_lmg_supplier_payment_threshold.pdf#page=9,Alan Mond,2015-10-07
+City of Macon,GA,City,"$10,000",90000,,Kenny Cunanan,2015-01-15
+City of Mesa,AZ,City,"$25,000",450000,,Kenny Cunanan,2015-01-15
+City of New Orleans,LA,City,"$15,000",370000,,Kenny Cunanan,2015-01-15
+City of New York,NY,City,"$100,000",8340000,,Kenny Cunanan,2015-01-15
+City of Oakland,CA,City,"$25,000",400000,,Kenny Cunanan,2015-01-15
+City of Philadelphia,PA,City,"$10,000",1560297,http://www.phila.gov/phils/docs/otherinfo/089/vendor.htm#III,Alan Mond,2015-10-07
+City of San Antonio,TX,City,"$50,000",1380000,,Kenny Cunanan,2015-01-15
+City of San Francisco,CA,City,"$10,000",830000,,Kenny Cunanan,2015-01-15
+County of San Mateo,CA,County,"$100,000",740000,,Kenny Cunanan,2015-01-15
+City of Santa Cruz,CA,City,"$100,000",60000,,Kenny Cunanan,2015-01-15
+City of Seattle,WA,City,"$47,000",630000,,Kenny Cunanan,2015-01-15
+City of South Bend,IN,City,"$75,000",100000,,Kenny Cunanan,2015-01-15
+State of Rhode Island,RI,State,"$500,000",1050000,,Kenny Cunanan,2015-01-15
+City of Alexandria,VA,City,"$50,000",4031000,,Kenny Cunanan,2015-01-15
+City of Colorado Springs,CO,City,"$100,000",432000,,Kenny Cunanan,2015-01-15
+City of Danbury,CT,City,"$5,000",83000,,Kenny Cunanan,2015-01-15
+City of Des Moines,IA,City,"$25,000",207000,,Kenny Cunanan,2015-01-15
+City of Fort Worth,TX,City,"$50,000",778000,,Kenny Cunanan,2015-01-15
+City of Houston,TX,City,"$50,000",2161000,,Kenny Cunanan,2015-01-15
+City of New Haven,CT,City,"$10,000",131000,,Kenny Cunanan,2015-01-15
+City of Oklahoma City,OK,City,"$25,000",600000,,Kenny Cunanan,2015-01-15
+City of Pittsburgh,PA,City,"$30,000",306000,,Kenny Cunanan,2015-01-15
+City of San Diego,CA,City,"$25,000",1381069,http://docs.sandiego.gov/municode/MuniCodeChapter02/Ch02Art02Division32.pdf#page=5,Alan Mond,2015-10-07
+City of Stamford,CT,City,"$25,000",125000,,Kenny Cunanan,2015-01-15
+City of Temecula,CA,City,"$30,000",106780,http://www.cityoftemecula.org/NR/rdonlyres/33A01115-430F-40DF-9B55-E90D068B0DDF/0/PurchasingLimits.p,Alan Mond,2015-10-07
+City of Tulsa,OK,City,"$25,000",394000,,Kenny Cunanan,2015-01-15
+City of Virginia Beach,VA,City,"$50,000",448000,,Kenny Cunanan,2015-01-15
+City of El Paso,TX,City,"$49,999",672538,http://legacy.elpasotexas.gov/purchasing/ep-bid_policies.asp,Alan Mond,2015-10-07
+Cleveland Metroparks,OH,Park District,"$50,000",390113,http://www.clevelandmetroparks.com/Main/BiddingProcedures.aspx,Alan Mond,2015-10-07
+SACOG,CA,Council of Governments,"$50,000",2363791,https://drive.google.com/file/d/0B7xNKjdrpz2mZ25BNWo5bWdyV044Tl9aamVHeVp5TlBfMDhr/view?usp=sharing,Alan Mond,2015-10-07
+City of Plano,TX,City,"$50,000",274409,https://www.municode.com/library/tx/plano/codes/code_of_ordinances?nodeId=PTIICOOR_CH2AD_ARTIINGE_S2-12PRCO,Alan Mond,2015-10-07
