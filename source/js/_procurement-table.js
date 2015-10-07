@@ -8,7 +8,7 @@ $(document).ready(function() {
   function parseFormattedNumber(column) {
     return function(cell, record) {
       record[column + "-formatted"] = cell.innerHTML;
-      return rawNumber(cell.innerHTML);
+      return rawNumber(cell.textContent);
     }
   }
 

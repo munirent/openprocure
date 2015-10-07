@@ -184,6 +184,12 @@ a {
   word-break: normal;
   word-break: keep-all;
 }
+@media screen and (min-width: 64em) {
+.main-content table {
+  display: table;
+}
+}
+
   .main-content table th {
     font-weight: bold; }
   .main-content table th, .main-content table td {

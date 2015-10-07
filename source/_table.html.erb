@@ -7,7 +7,6 @@
         <th>Agency Type</th>
         <th class="column-number">Threshold</th>
         <th class="column-number">Population</th>
-        <th>Link</th>
       </tr>
     </thead>
     <tbody>
@@ -16,9 +15,8 @@
           <td><%= procurement.agency %></td>
           <td><%= procurement.state %></td>
           <td><%= procurement.type %></td>
-          <td class="column-number"><%= number_to_money(procurement.threshold) %></td>
+          <td class="column-number"><%= wrap_link_if procurement.url, number_to_money(procurement.threshold), procurement.url, title: "Source of threshold" %></td>
           <td class="column-number"><%= number_to_delimited(procurement.population) %></td>
-          <td><%= link_to truncate(procurement.url, :length => 20), procurement.url %></td>
         </tr>
       <% end %>
     </tbody>

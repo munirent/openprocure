@@ -1,5 +1,5 @@
 .procurement-table {
-	  font-size: 15px;
+  font-size: 15px;
 }
 
 .procurement-table thead th {
@@ -9,6 +9,11 @@
 
 .procurement-table .column-number {
   text-align: right;
+}
+
+.procurement-table tbody td a {
+  color: #159957;
+  text-decoration: underline;
 }
 
 .table-center {
