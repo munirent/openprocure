@@ -97,7 +97,8 @@
   state: CA
   type: City
   threshold: $100,000
-  population: 470000
+  population: 469,428
+  url: 'https://www.municode.com/library/ca/long_beach/codes/municipal_code?nodeId=TIT2ADPE_CH2.84CO_DIVIGESUMA_2.84.010AUPUAGOTCO'
 - agency: City of Louisville
   state: KY
   type: City
