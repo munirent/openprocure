@@ -4,3 +4,4 @@
 //= require dynatable/jquery.dynatable
 //
 //= require _procurement-table
+//= require _download-csv
