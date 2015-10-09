@@ -1,10 +1,17 @@
 <div class="table-center">
   <span class="filters">
     <span>Filters:</span>
-    <%= partial "filter_values", locals: { column: :state } %>
-    <%= partial "filter_values", locals: { column: :type } %>
+    <%= partial "filter_values", locals: {
+      column: :state,
+      placeholder: "State"
+    } %>
+    <%= partial "filter_values", locals: {
+      column: :type,
+      placeholder: "Agency Type"
+    } %>
     <%= partial "filter_breakpoints", locals: {
       column: :threshold,
+      placeholder: "Threshold",
       breakpoints: ["< $25,000", "$25,000 to $50,000", ">= $50,000"]} %>
   </span>
   <table class="center procurement-table">
