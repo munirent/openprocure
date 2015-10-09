@@ -19,7 +19,31 @@ $(document).ready(function() {
     }
   }
 
-  $(".procurement-table").dynatable({
+  // 
+  function filterBreakpoints(column) {
+    return function (record, queryValue) {
+      var match;
+      if(match = queryValue.match("([0-9,]+).*to[^0-9]*([0-9,]+)")) {
+        return between(record[column], rawNumber(match[1]), rawNumber(match[2]) - 1);
+      } else if(match = queryValue.match("<[^0-9]*([0-9,]+)")) {
+        return between(record[column], 0, rawNumber(match[1]) - 1);
+      } else if(match = queryValue.match(">[^0-9]*([0-9,]+)")) {
+        return between(record[column], rawNumber(match[1]), Infinity);
+      } else {
+        return true;
+      }
+    }
+  }
+
+  function between(value, min, max) {
+    return value >= min && value <= max;
+  }
+
+  $(".procurement-table")
+ .bind("dynatable:init", function(e, dynatable) {
+    dynatable.queries.functions["threshold"] = filterBreakpoints("threshold");
+  }) 
+  .dynatable({
     features: {
       paginate: false
     },
@@ -34,5 +58,10 @@ $(document).ready(function() {
       threshold: writeFormattedNumber("threshold"),
       population: writeFormattedNumber("population")
     },
+    inputs: {
+      queries: $(
+        "#filter-state, #filter-type, #filter-threshold"
+      )
+    }
   });
 });

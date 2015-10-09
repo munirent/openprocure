@@ -3,6 +3,6 @@
   "description": "Open Source list of Public Agencies Procurement Thresholds",
   "version": "1.0.0",
   "dependencies": {
-    "dynatable": "~0.3.1"
+    "dynatable": "alfajango/jquery-dynatable#ce207ab5070bf6bf5482d9b4178b2b1b7cc88c98"
   }
 }

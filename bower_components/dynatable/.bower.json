@@ -1,7 +1,6 @@
 {
   "name": "dynatable",
   "description": "A funner, semantic, HTML5+JSON, interactive table plugin.",
-  "version": "0.3.1",
   "keywords": [
     "table",
     "datatables",
@@ -43,14 +42,12 @@
     "test",
     "tests"
   ],
-  "_release": "0.3.1",
+  "_release": "ce207ab507",
   "_resolution": {
-    "type": "version",
-    "tag": "v0.3.1",
-    "commit": "57859d954235d64704f9156455d1dd99f1559344"
+    "type": "commit",
+    "commit": "ce207ab5070bf6bf5482d9b4178b2b1b7cc88c98"
   },
-  "_source": "git://github.com/JangoSteve/jquery-dynatable.git",
-  "_target": "~0.3.1",
-  "_originalSource": "dynatable",
-  "_direct": true
+  "_source": "git://github.com/alfajango/jquery-dynatable.git",
+  "_target": "ce207ab5070bf6bf5482d9b4178b2b1b7cc88c98",
+  "_originalSource": "alfajango/jquery-dynatable"
 }

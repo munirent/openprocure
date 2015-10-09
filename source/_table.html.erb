@@ -1,10 +1,18 @@
 <div class="table-center">
+  <span class="filters">
+    <span>Filters:</span>
+    <%= partial "filter_values", locals: { column: :state } %>
+    <%= partial "filter_values", locals: { column: :type } %>
+    <%= partial "filter_breakpoints", locals: {
+      column: :threshold,
+      breakpoints: ["< $25,000", "$25,000 to $50,000", ">= $50,000"]} %>
+  </span>
   <table class="center procurement-table">
     <thead>
       <tr>
         <th>Agency</th>
         <th>State</th>
-        <th>Agency Type</th>
+        <th data-dynatable-column="type">Agency Type</th>
         <th class="column-number">Threshold</th>
         <th class="column-number">Population</th>
       </tr>

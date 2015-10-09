@@ -18,6 +18,17 @@ To install Dynatable:
 
 * [Download the latest release](http://jspkg.com/packages/dynatable)
 
+## Support
+
+IRC: [Join us at #dynatable on freenode IRC](https://webchat.freenode.net/?channels=dynatable)
+
+Bugs and Feature Requests: [Search and open a Github Issue](https://github.com/alfajango/jquery-dynatable/issues)
+
+Debugging: [Fork and edit this template on JSFiddle](http://jsfiddle.net/ty3b7/)
+
+Questions: [Ask a question tagged with dynatable on
+StackOverflow](http://stackoverflow.com/questions/tagged/dynatable)
+
 ## TODO:
 
 * ~~Change `unfilter`s and `filter`s to `reader`s and `writer`s.~~
@@ -77,7 +88,7 @@ the docs as a test case within an automated test suite.
 
 If anyone out there thinks this sounds like fun, please contact me or
 even go ahead and create an issue/pull request. Otherwise, it will be at
-teh top of my priority list until I can get to it.
+the top of my priority list until I can get to it.
 
 ## Contributing
 
@@ -95,7 +106,7 @@ Steve Schwartz -
 
 ## Copyright and License
 
-Copyright 2013 Alfa Jango LLC.
+Copyright 2014 Alfa Jango LLC.
 
 Dual licensed, released under the Free Software Foundation's
 GNU Affero General Public License (AGPL), or see [license

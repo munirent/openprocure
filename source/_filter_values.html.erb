@@ -1,0 +1,4 @@
+<%= partial "filter_breakpoints", locals: {
+  column: column,
+  breakpoints: data.procurement.map(&column).sort.uniq
+} %>
