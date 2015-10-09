@@ -176,14 +176,14 @@
   type: City
   threshold: $25,000
   population: 400000
-  contributed_by: Kenny Cunanan
+  contributed_by: Mark Headd
   updated_at: 2015-01-15
 - agency: City of Philadelphia
   state: PA
   type: City
-  threshold: $10,000
+  threshold: $32,000
   population: 1,560,297
-  url: 'http://www.phila.gov/phils/docs/otherinfo/089/vendor.htm#III'
+  url: 'http://mbec.phila.gov/procurement/forms/Vendorguide.pdf'
   contributed_by: Alan Mond
   updated_at: 2015-10-07
 - agency: City of San Antonio
