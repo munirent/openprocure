@@ -375,3 +375,12 @@
   url: 'https://www.revisor.mn.gov/statutes/?id=16C.06'
   contributed_by: Alan Mond
   updated_at: 2015-10-08
+- agency: Texas Department of Transportation
+  state: TX
+  type: DOT
+  threshold: $25,000
+  population: 26,956,958
+  url: 'https://drive.google.com/file/d/0B7xNKjdrpz2maTVqU0Fmd0tWTTA/view?usp=sharing'
+  contributed_by: Alan Mond
+  updated_at: 2015-10-09
+  
