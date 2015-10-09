@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Open Procure by MuniRent</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/all-351d8a5b.css" rel="stylesheet" type="text/css" />
+    <link href="css/all-55531e47.css" rel="stylesheet" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <!-- Bootstrap -->
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
@@ -12,7 +12,7 @@
     
     <script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="js/all-9347c7e7.js" type="text/javascript"></script>
+    <script src="js/all-3730fb8f.js" type="text/javascript"></script>
   </head>
   <body>
     <section class="page-header">
@@ -31,12 +31,65 @@
   </p>
 
   <div class="table-center">
+  <span class="filters">
+    <span>Filters:</span>
+    <select id="filter-state" name="state">
+  <option></option>
+    <option>AZ</option>
+    <option>CA</option>
+    <option>CO</option>
+    <option>CT</option>
+    <option>GA</option>
+    <option>HI</option>
+    <option>IA</option>
+    <option>IL</option>
+    <option>IN</option>
+    <option>KS</option>
+    <option>KY</option>
+    <option>LA</option>
+    <option>MA</option>
+    <option>MD</option>
+    <option>MI</option>
+    <option>MN</option>
+    <option>NC</option>
+    <option>NV</option>
+    <option>NY</option>
+    <option>OH</option>
+    <option>OK</option>
+    <option>PA</option>
+    <option>RI</option>
+    <option>TN</option>
+    <option>TX</option>
+    <option>UT</option>
+    <option>VA</option>
+    <option>WA</option>
+</select>
+
+
+    <select id="filter-type" name="type">
+  <option></option>
+    <option>City</option>
+    <option>Council of Governments</option>
+    <option>County</option>
+    <option>Park District</option>
+    <option>State</option>
+</select>
+
+
+    <select id="filter-threshold" name="threshold">
+  <option></option>
+    <option>< $25,000</option>
+    <option>$25,000 to $50,000</option>
+    <option>>= $50,000</option>
+</select>
+
+  </span>
   <table class="center procurement-table">
     <thead>
       <tr>
         <th>Agency</th>
         <th>State</th>
-        <th>Agency Type</th>
+        <th data-dynatable-column="type">Agency Type</th>
         <th class="column-number">Threshold</th>
         <th class="column-number">Population</th>
       </tr>
