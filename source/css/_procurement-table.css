@@ -23,7 +23,7 @@ th {
   text-align: center;
 }
 
-.table-center .filters {
+.filters {
   float: left;
 }
 
@@ -38,3 +38,10 @@ th a, th a:hover {
   white-space: nowrap;
 }
 
+.filters select {
+  padding: 6px 6px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  background-image: none;
+}
