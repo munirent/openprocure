@@ -21,6 +21,7 @@
         <th>State</th>
         <th data-dynatable-column="type">Agency Type</th>
         <th class="column-number">Threshold</th>
+        <th class="column-number">Legal Reference</th>
         <th class="column-number">Population</th>
       </tr>
     </thead>
@@ -31,6 +32,7 @@
           <td><%= procurement.state %></td>
           <td><%= procurement.type %></td>
           <td class="column-number"><%= wrap_link_if procurement.url, number_to_money(procurement.threshold), procurement.url, title: "Source of threshold" %></td>
+          <td><%= procurement.ordinance_number %></td>
           <td class="column-number"><%= number_to_delimited(procurement.population) %></td>
         </tr>
       <% end %>

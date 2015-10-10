@@ -4,7 +4,7 @@
   type: County
   threshold: $100,000
   population: 1,418,788
-  url: 'http://www.dgs.saccounty.net/capsd/Pages/County-Purchasing-Code.aspx#2.56.250' 
+  url: 'http://www.dgs.saccounty.net/capsd/Pages/County-Purchasing-Code.aspx#2.56.250'
   contributed_by: Alan Mond
   updated_at: 2015-10-07
 - agency: Salt Lake City
@@ -44,6 +44,8 @@
   type: City
   threshold: $20,000
   population: 440000
+  url: https://www.municode.com/library/ga/atlanta/codes/code_of_ordinances?nodeId=PTIICOORENOR_CH2AD_ARTXPRREESCO_DIV4SOSECOFO
+  ordinance_number: Chapter 2, Article X, Division 4, Section 2-1190
   contributed_by: Kenny Cunanan
   updated_at: 2015-01-15
 - agency: City of Austin
@@ -383,4 +385,3 @@
   url: 'https://drive.google.com/file/d/0B7xNKjdrpz2maTVqU0Fmd0tWTTA/view?usp=sharing'
   contributed_by: Alan Mond
   updated_at: 2015-10-09
-  
