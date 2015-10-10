@@ -181,10 +181,10 @@
 - agency: City of Philadelphia
   state: PA
   type: City
-  threshold: $10,000
+  threshold: $32,000
   population: 1,560,297
-  url: 'http://www.phila.gov/phils/docs/otherinfo/089/vendor.htm#III'
-  contributed_by: Alan Mond
+  url: 'http://mbec.phila.gov/procurement/forms/Vendorguide.pdf#page=7'
+  contributed_by: Mark Headd
   updated_at: 2015-10-07
 - agency: City of San Antonio
   state: TX
@@ -332,7 +332,7 @@
   state: VA
   type: City
   threshold: $50,000
-  population: 448000
+  population: 148,892
   contributed_by: Kenny Cunanan
   updated_at: 2015-01-15
 - agency: City of El Paso
@@ -375,3 +375,12 @@
   url: 'https://www.revisor.mn.gov/statutes/?id=16C.06'
   contributed_by: Alan Mond
   updated_at: 2015-10-08
+- agency: Texas Department of Transportation
+  state: TX
+  type: DOT
+  threshold: $25,000
+  population: 26,956,958
+  url: 'https://drive.google.com/file/d/0B7xNKjdrpz2maTVqU0Fmd0tWTTA/view?usp=sharing'
+  contributed_by: Alan Mond
+  updated_at: 2015-10-09
+  

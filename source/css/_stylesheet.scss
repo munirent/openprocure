@@ -252,3 +252,15 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+.addthis_sharing_toolbox {
+  margin: 20px 0;
+}
+.addthis_sharing_toolbox > div {
+  display: inline-block !important;
+  vertical-align: middle;
+}
+.addthis_sharing_toolbox .share-message {
+  margin-right: 12px;
+}
+
