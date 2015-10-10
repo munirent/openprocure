@@ -5,7 +5,7 @@ Welcome to OpenProcure!
 
 OpenProcure is an open source, online repository for municipal purchasing information across the United States.
 
-Our goal is to make municipal, county-level, and federal purchasing easily accessible, searchable and malleable. It is where government officials, technologists, and active citizens can work together to make our purchasing process more transparent.
+Our goal is to make municipal, county-level, and federal purchasing easily accessible for everyone. It is where government officials, technologists, and active citizens can work together to make our purchasing processes more transparent.
 
 See it live at http://openprocure.us/
 
@@ -15,17 +15,18 @@ The static pages are in the gh-pages branch and the Middleman template is in the
 
 There are several ways that you can help contribute information to this project:
 
-+ [Search for](#search) and add data to OpenProcure
-+ Verify already existing data in OpenProcure
-+ Contribute to the Front End of the Site
++ [Search for](#search) and [add data](#add-data) to OpenProcure
++ [Verify already existing data](https://github.com/munirent/openprocure/labels/verify%20data) in OpenProcure
++ [Contribute to the Front End](https://github.com/munirent/openprocure/labels/enhancement) of the Site
 
-
+For a full list of suggested edits you can make to the site, visit our [Github Issues](https://github.com/munirent/openprocure/issues) page!
 
 <a name="search"></a>
 #### How to Search for procurement thresholds
 
 Procurement Thresholds
 
+<a name="add-date"></a>
 #### Adding Data to OpenProcure
 
 [Edit `data/procurement.yaml` directly on GitHub](https://github.com/munirent/openprocure/edit/master/data/procurement.yaml).  Once you save the edited `procurement.yaml` file, it will automatically deploy to the live website.  It takes about 1 min and you need to refresh your browser, but it is really that simple.  No further action required.  Or you can always fork the repository and submit a pull request.
