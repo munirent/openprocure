@@ -1,10 +1,15 @@
-# Open Procure
+# OpenProcure
 ## Open Source list of Public Agencies Procurement Thresholds
+
+Welcome to OpenProcure!
+
+OpenProcure is an open source, online repository for municipal purchasing information.
+
+Our goal is to make municipal, county-level, and federal purchasing easily accessible, searchable and malleable. It is where government officials, technologists, and active citizens can work together to make our purchasing process more transparent.
 
 See it live at http://openprocure.us/
 
-The static pages are in the gh-pages branch and the Middleman template is
-in the master branch.
+The static pages are in the gh-pages branch and the Middleman template is in the master branch.
 
 ### To add procurement thresholds
 
@@ -34,4 +39,3 @@ related or neighboring rights to Open Procure. This work is published
 from: United States.
 
 [See LICENSE.txt](LICENSE.txt) for more details.
-
