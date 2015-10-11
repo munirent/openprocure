@@ -4,7 +4,7 @@
   type: County
   threshold: $100,000
   population: 1,418,788
-  url: 'http://www.dgs.saccounty.net/capsd/Pages/County-Purchasing-Code.aspx#2.56.250' 
+  url: 'http://www.dgs.saccounty.net/capsd/Pages/County-Purchasing-Code.aspx#2.56.250'
   contributed_by: Alan Mond
   updated_at: 2015-10-07
 - agency: Salt Lake City
@@ -44,12 +44,14 @@
   type: City
   threshold: $20,000
   population: 440000
+  url: https://www.municode.com/library/ga/atlanta/codes/code_of_ordinances?nodeId=PTIICOORENOR_CH2AD_ARTXPRREESCO_DIV4SOSECOFO_S2-1190SMPU
   contributed_by: Kenny Cunanan
   updated_at: 2015-01-15
 - agency: City of Austin
   state: TX
   type: City
-  threshold: $53,000
+  threshold: $5,000
+  url: https://www.municode.com/library/tx/austin/codes/code_of_ordinances?searchRequest=%7B%22searchText%22%3A%22purchasing%22%2C%22pageNum%22%3A1%2C%22resultsPerPage%22%3A25%2C%22booleanSearch%22%3Afalse%2C%22stemming%22%3Atrue%2C%22fuzzy%22%3Afalse%2C%22synonym%22%3Afalse%2C%22contentTypes%22%3A%5B%22CODES%22%5D%2C%22productIds%22%3A%5B%5D%7D&nodeId=CH_ARTVIIFI_S15PUPR
   population: 840000
   contributed_by: Kenny Cunanan
   updated_at: 2015-01-15
@@ -64,7 +66,8 @@
 - agency: City of Charlotte
   state: NC
   type: City
-  threshold: $100,000
+  threshold: $5,000
+  url: http://www.charlottecountyfl.com/Purchasing/howto.asp
   population: 780000
   contributed_by: Kenny Cunanan
   updated_at: 2015-01-15
@@ -97,6 +100,7 @@
   type: City
   threshold: $25,000
   population: 700000
+  url: http://www.detroitmi.gov/How-Do-I/Do-Business-with-the-City/Items-Out-To-Bid-Information
   contributed_by: Kenny Cunanan
   updated_at: 2015-01-15
 - agency: City of Honolulu
@@ -104,6 +108,7 @@
   type: City
   threshold: $100,000
   population: 375000
+  url: http://www.honolulu.gov/pur.html
   contributed_by: Kenny Cunanan
   updated_at: 2015-01-15
 - agency: City of Kansas City
@@ -383,4 +388,3 @@
   url: 'https://drive.google.com/file/d/0B7xNKjdrpz2maTVqU0Fmd0tWTTA/view?usp=sharing'
   contributed_by: Alan Mond
   updated_at: 2015-10-09
-  
