@@ -388,7 +388,7 @@
   url: 'https://drive.google.com/file/d/0B7xNKjdrpz2maTVqU0Fmd0tWTTA/view?usp=sharing'
   contributed_by: Alan Mond
   updated_at: 2015-10-09
-- agency: City of San Leandro 
+- agency: City of San Leandro
   state: CA
   type: City
   threshold: $5,000
@@ -403,4 +403,12 @@
   population: 323,614
   url: 'http://www.co.marion.or.us/FIN/Documents/SolicitationLimits2015.pdf'
   contributed_by: Alan Mond
+  updated_at: 2015-10-13
+- agency: County of Solano
+  state: CA
+  type: County
+  threshold: $10,000
+  population: 424,788
+  url: 'http://www.solanocounty.com/civicax/filebank/blobdload.aspx?blobid=12011'
+  contributed_by: Ryan Wold
   updated_at: 2015-10-13
