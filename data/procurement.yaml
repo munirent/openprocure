@@ -396,3 +396,11 @@
   url: 'http://www.sanleandro.org/depts/finance/purchasing/policy.asp'
   contributed_by: Deborah Acosta
   updated_at: 2015-10-13
+- agency: Marion County
+  state: OR
+  type: County
+  threshold: $20,000
+  population: 87,965
+  url: 'http://www.co.marion.or.us/FIN/Documents/SolicitationLimits2015.pdf'
+  contributed_by: Alan Mond
+  updated_at: 2015-10-13
