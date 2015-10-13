@@ -388,3 +388,10 @@
   url: 'https://drive.google.com/file/d/0B7xNKjdrpz2maTVqU0Fmd0tWTTA/view?usp=sharing'
   contributed_by: Alan Mond
   updated_at: 2015-10-09
+- agency: City of San Leandro 
+  state: CA
+  type: City
+  threshold: $5,000
+  population: 87,965
+  contributed_by: Deborah Acosta
+  updated_at: 2015-10-13
