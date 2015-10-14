@@ -22,5 +22,6 @@ gem "middleman-gh-pages"
 group :development do
   gem "rspec", "~> 3.3.0"
   gem "capybara", "~> 2.4.4"
+  gem "rspec_junit_formatter", "~> 0.2.2"
 end
 
