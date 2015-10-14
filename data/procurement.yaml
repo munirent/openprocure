@@ -219,15 +219,14 @@
   population: 60000
   contributed_by: Kenny Cunanan
   updated_at: 2015-01-15
-  
 - agency: City of Savannah
   state: GA
   type: City
   threshold: $25,000
   population: 142,700
+  url: http://savannahga.gov/index.aspx?NID=598
   contributed_by: Carl V. Lewis
   updated_at: 2015-10-14
-  
 - agency: City of Seattle
   state: WA
   type: City
