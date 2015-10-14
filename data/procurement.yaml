@@ -392,9 +392,9 @@
   state: TX
   type: DOT
   discretionary_threshold: $5,000
-  discretionary_url: 'https://drive.google.com/file/d/0B7xNKjdrpz2maTVqU0Fmd0tWTTA/view?usp=sharing'
+  discretionary_url: 'http://www.txdot.gov/business/vendors/goods.html'
   formal_threshold: $25,000
-  formal_url: 'https://drive.google.com/file/d/0B7xNKjdrpz2maTVqU0Fmd0tWTTA/view?usp=sharing'
+  formal_url: 'http://www.txdot.gov/business/vendors/goods.html'
   population: 26,956,958
   contributed_by: Alan Mond
   updated_at: 2015-10-09
