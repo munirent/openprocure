@@ -1,6 +1,3 @@
-test:
-  post:
-    - bundle exec middleman build
 deployment:
   autodeploy:
     branch: master
