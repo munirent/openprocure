@@ -391,6 +391,8 @@
 - agency: Texas Department of Transportation
   state: TX
   type: DOT
+  discretionary_threshold: $5,000
+  discretionary_url: 'https://drive.google.com/file/d/0B7xNKjdrpz2maTVqU0Fmd0tWTTA/view?usp=sharing'
   formal_threshold: $25,000
   formal_url: 'https://drive.google.com/file/d/0B7xNKjdrpz2maTVqU0Fmd0tWTTA/view?usp=sharing'
   population: 26,956,958
