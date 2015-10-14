@@ -18,8 +18,8 @@
 - agency: City of Alameda
   state: CA
   type: City
-  discretional_threshold: $5,000
-  discretional_url: 'https://www.municode.com/library/ca/alameda/codes/code_of_ordinances?nodeId=CHIIAD_ARTIVCO_2-59AUCO_2-59.1FOPP'
+  discretionary_threshold: $5,000
+  discretionary_url: 'https://www.municode.com/library/ca/alameda/codes/code_of_ordinances?nodeId=CHIIAD_ARTIVCO_2-59AUCO_2-59.1FOPP'
   population: 76,419
   contributed_by: Alan Mond
   updated_at: 2015-10-07
