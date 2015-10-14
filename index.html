@@ -4,11 +4,8 @@
     <meta charset="UTF-8">
     <title>Open Procure by MuniRent</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/all-95d82674.css" rel="stylesheet" type="text/css" />
+    <link href="css/all-503596b3.css" rel="stylesheet" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <!-- Bootstrap -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
   </head>
   <body>
     <section class="page-header">
@@ -26,10 +23,10 @@
     without having to solicit competitive bids.
   </p>
 
-  <div class="table-center">
-  <span class="filters">
-    <span>Filters:</span>
-    <select id="filter-state" name="state" class="form-control">
+  <section class="data-table">
+    <span class="filters">
+  <span>Filters:</span>
+  <select id="filter-state" name="state" class="form-control">
   <option value="">State</option>
     <option>AZ</option>
     <option>CA</option>
@@ -63,7 +60,7 @@
 </select>
 
 
-    <select id="filter-type" name="type" class="form-control">
+  <select id="filter-type" name="type" class="form-control">
   <option value="">Agency Type</option>
     <option>City</option>
     <option>Council of Governments</option>
@@ -74,424 +71,494 @@
 </select>
 
 
-    <select id="filter-threshold" name="threshold" class="form-control">
-  <option value="">Threshold</option>
-    <option>&lt; $25,000</option>
-    <option>$25,000 to $50,000</option>
-    <option>&gt;= $50,000</option>
-</select>
-
-  </span>
-  <table class="center procurement-table">
-    <thead>
+</span>
+<table class="procurement-table">
+  <thead>
+    <tr>
+      <th class="column-text">Agency</th>
+      <th class="column-text">State</th>
+      <th class="column-text" data-dynatable-column="type">Agency Type</th>
+      <th class="column-number">Discretionary Threshold</th>
+      <th class="column-number">Formal Threshold</th>
+      <th class="column-number">Population</th>
+    </tr>
+  </thead>
+  <tbody>
       <tr>
-        <th>Agency</th>
-        <th>State</th>
-        <th data-dynatable-column="type">Agency Type</th>
-        <th class="column-number">Threshold</th>
-        <th class="column-number">Population</th>
+        <td>County of Sacramento</td>
+        <td>CA</td>
+        <td>County</td>
+        <td></td>
+        <td><a title="Source of threshold" href="http://www.dgs.saccounty.net/capsd/Pages/County-Purchasing-Code.aspx#2.56.250">$100,000</a></td>
+        <td>1,418,788</td>
       </tr>
-    </thead>
-    <tbody>
-        <tr>
-          <td>County of Sacramento</td>
-          <td>CA</td>
-          <td>County</td>
-          <td class="column-number"><a title="Source of threshold" href="http://www.dgs.saccounty.net/capsd/Pages/County-Purchasing-Code.aspx#2.56.250">$100,000</a></td>
-          <td class="column-number">1,418,788</td>
-        </tr>
-        <tr>
-          <td>Salt Lake City</td>
-          <td>UT</td>
-          <td>City</td>
-          <td class="column-number"><a title="Source of threshold" href="http://www.slcinfobase.com/ppareo/#!WordDocuments/procurementchapter11smallpurchases.htm">$20,000</a></td>
-          <td class="column-number">191,180</td>
-        </tr>
-        <tr>
-          <td>City of Alameda</td>
-          <td>CA</td>
-          <td>City</td>
-          <td class="column-number"><a title="Source of threshold" href="https://www.municode.com/library/ca/alameda/codes/code_of_ordinances?nodeId=CHIIAD_ARTIVCO_2-59AUCO_2-59.1FOPP">$5,000</a></td>
-          <td class="column-number">76,419</td>
-        </tr>
-        <tr>
-          <td>City of Palo Alto</td>
-          <td>CA</td>
-          <td>City</td>
-          <td class="column-number"><a title="Source of threshold" href="http://www.amlegal.com/nxt/gateway.dll/California/paloalto_ca/title2administrativecode*/chapter230contractsandpurchasingprocedur?f=templates$fn=default.htm$3.0$vid=amlegal:paloalto_ca$anc=JD_2.30.320">$25,000</a></td>
-          <td class="column-number">66,642</td>
-        </tr>
-        <tr>
-          <td>City of Baltimore</td>
-          <td>MD</td>
-          <td>City</td>
-          <td class="column-number"><a title="Source of threshold" href="http://archive.baltimorecity.gov/Portals/0/Charter%20and%20Codes/ChrtrPLL/01%20-%20Charter.pdf#page=138">$25,000</a></td>
-          <td class="column-number">622,104</td>
-        </tr>
-        <tr>
-          <td>City of Atlanta</td>
-          <td>GA</td>
-          <td>City</td>
-          <td class="column-number"><a title="Source of threshold" href="https://www.municode.com/library/ga/atlanta/codes/code_of_ordinances?nodeId=PTIICOORENOR_CH2AD_ARTXPRREESCO_DIV4SOSECOFO_S2-1190SMPU">$20,000</a></td>
-          <td class="column-number">440,000</td>
-        </tr>
-        <tr>
-          <td>City of Austin</td>
-          <td>TX</td>
-          <td>City</td>
-          <td class="column-number"><a title="Source of threshold" href="https://www.municode.com/library/tx/austin/codes/code_of_ordinances?searchRequest=%7B%22searchText%22%3A%22purchasing%22%2C%22pageNum%22%3A1%2C%22resultsPerPage%22%3A25%2C%22booleanSearch%22%3Afalse%2C%22stemming%22%3Atrue%2C%22fuzzy%22%3Afalse%2C%22synonym%22%3Afalse%2C%22contentTypes%22%3A%5B%22CODES%22%5D%2C%22productIds%22%3A%5B%5D%7D&amp;nodeId=CH_ARTVIIFI_S15PUPR">$5,000</a></td>
-          <td class="column-number">840,000</td>
-        </tr>
-        <tr>
-          <td>City of Boston</td>
-          <td>MA</td>
-          <td>City</td>
-          <td class="column-number"><a title="Source of threshold" href="http://www.cityofboston.gov/procurement/information/">$5,000</a></td>
-          <td class="column-number">645,966</td>
-        </tr>
-        <tr>
-          <td>City of Charlotte</td>
-          <td>NC</td>
-          <td>City</td>
-          <td class="column-number"><a title="Source of threshold" href="http://www.charlottecountyfl.com/Purchasing/howto.asp">$5,000</a></td>
-          <td class="column-number">780,000</td>
-        </tr>
-        <tr>
-          <td>City of Chattanooga</td>
-          <td>TN</td>
-          <td>City</td>
-          <td class="column-number"><a title="Source of threshold" href="http://www.chattanooga.gov/general-services-files/purchasing/PurchasingManual.pdf#page=16">$24,999</a></td>
-          <td class="column-number">173,366</td>
-        </tr>
-        <tr>
-          <td>City of Chicago</td>
-          <td>IL</td>
-          <td>City</td>
-          <td class="column-number"><a title="Source of threshold" href="http://www.cityofchicago.org/dam/city/depts/dps/Outreach/ProcurementFundamentalsGuideMay262010.pdf#page=10">$10,000</a></td>
-          <td class="column-number">2,722,389</td>
-        </tr>
-        <tr>
-          <td>City of Denver</td>
-          <td>CO</td>
-          <td>City</td>
-          <td class="column-number"><a title="Source of threshold" href="https://www.denvergov.org/Portals/573/documents/HowToDoBusinessWithCCD_BidNet_ORD_Rev01_04182014.pdf#page=8">$25,000</a></td>
-          <td class="column-number">649,495</td>
-        </tr>
-        <tr>
-          <td>City of Detroit</td>
-          <td>MI</td>
-          <td>City</td>
-          <td class="column-number"><a title="Source of threshold" href="http://www.detroitmi.gov/How-Do-I/Do-Business-with-the-City/Items-Out-To-Bid-Information">$25,000</a></td>
-          <td class="column-number">700,000</td>
-        </tr>
-        <tr>
-          <td>City of Honolulu</td>
-          <td>HI</td>
-          <td>City</td>
-          <td class="column-number"><a title="Source of threshold" href="http://www.honolulu.gov/rep/site/bfspur/bfspur_docs/How_the_City_Buys_2015.pdf#page=3">$5,000</a></td>
-          <td class="column-number">374,658</td>
-        </tr>
-        <tr>
-          <td>City of Kansas City</td>
-          <td>KS</td>
-          <td>City</td>
-          <td class="column-number">$20,000</td>
-          <td class="column-number">150,000</td>
-        </tr>
-        <tr>
-          <td>City of Las Vegas</td>
-          <td>NV</td>
-          <td>City</td>
-          <td class="column-number">$50,000</td>
-          <td class="column-number">600,000</td>
-        </tr>
-        <tr>
-          <td>City of Lexington</td>
-          <td>KY</td>
-          <td>City</td>
-          <td class="column-number">$25,000</td>
-          <td class="column-number">300,000</td>
-        </tr>
-        <tr>
-          <td>City of Long Beach</td>
-          <td>CA</td>
-          <td>City</td>
-          <td class="column-number"><a title="Source of threshold" href="https://www.municode.com/library/ca/long_beach/codes/municipal_code?nodeId=TIT2ADPE_CH2.84CO_DIVIGESUMA_2.84.010AUPUAGOTCO">$100,000</a></td>
-          <td class="column-number">469,428</td>
-        </tr>
-        <tr>
-          <td>City of Louisville</td>
-          <td>KY</td>
-          <td>City</td>
-          <td class="column-number"><a title="Source of threshold" href="http://louisvilleky.gov/sites/default/files/internal_audit/audit_reports/2013-08_lmg_supplier_payment_threshold.pdf#page=9">$10,000</a></td>
-          <td class="column-number">253,128</td>
-        </tr>
-        <tr>
-          <td>City of Macon</td>
-          <td>GA</td>
-          <td>City</td>
-          <td class="column-number">$10,000</td>
-          <td class="column-number">90,000</td>
-        </tr>
-        <tr>
-          <td>City of Mesa</td>
-          <td>AZ</td>
-          <td>City</td>
-          <td class="column-number">$25,000</td>
-          <td class="column-number">450,000</td>
-        </tr>
-        <tr>
-          <td>City of New Orleans</td>
-          <td>LA</td>
-          <td>City</td>
-          <td class="column-number">$15,000</td>
-          <td class="column-number">370,000</td>
-        </tr>
-        <tr>
-          <td>City of New York</td>
-          <td>NY</td>
-          <td>City</td>
-          <td class="column-number">$100,000</td>
-          <td class="column-number">8,340,000</td>
-        </tr>
-        <tr>
-          <td>City of Oakland</td>
-          <td>CA</td>
-          <td>City</td>
-          <td class="column-number">$25,000</td>
-          <td class="column-number">400,000</td>
-        </tr>
-        <tr>
-          <td>City of Philadelphia</td>
-          <td>PA</td>
-          <td>City</td>
-          <td class="column-number"><a title="Source of threshold" href="http://mbec.phila.gov/procurement/forms/Vendorguide.pdf#page=7">$32,000</a></td>
-          <td class="column-number">1,560,297</td>
-        </tr>
-        <tr>
-          <td>City of San Antonio</td>
-          <td>TX</td>
-          <td>City</td>
-          <td class="column-number">$50,000</td>
-          <td class="column-number">1,380,000</td>
-        </tr>
-        <tr>
-          <td>City of San Francisco</td>
-          <td>CA</td>
-          <td>City</td>
-          <td class="column-number">$10,000</td>
-          <td class="column-number">830,000</td>
-        </tr>
-        <tr>
-          <td>County of San Mateo</td>
-          <td>CA</td>
-          <td>County</td>
-          <td class="column-number">$100,000</td>
-          <td class="column-number">740,000</td>
-        </tr>
-        <tr>
-          <td>City of Santa Cruz</td>
-          <td>CA</td>
-          <td>City</td>
-          <td class="column-number">$100,000</td>
-          <td class="column-number">60,000</td>
-        </tr>
-        <tr>
-          <td>City of Savannah</td>
-          <td>GA</td>
-          <td>City</td>
-          <td class="column-number"><a title="Source of threshold" href="http://savannahga.gov/index.aspx?NID=598">$25,000</a></td>
-          <td class="column-number">142,700</td>
-        </tr>
-        <tr>
-          <td>City of Seattle</td>
-          <td>WA</td>
-          <td>City</td>
-          <td class="column-number">$47,000</td>
-          <td class="column-number">630,000</td>
-        </tr>
-        <tr>
-          <td>City of South Bend</td>
-          <td>IN</td>
-          <td>City</td>
-          <td class="column-number">$75,000</td>
-          <td class="column-number">100,000</td>
-        </tr>
-        <tr>
-          <td>State of Rhode Island</td>
-          <td>RI</td>
-          <td>State</td>
-          <td class="column-number">$500,000</td>
-          <td class="column-number">1,050,000</td>
-        </tr>
-        <tr>
-          <td>City of Alexandria</td>
-          <td>VA</td>
-          <td>City</td>
-          <td class="column-number">$50,000</td>
-          <td class="column-number">4,031,000</td>
-        </tr>
-        <tr>
-          <td>City of Colorado Springs</td>
-          <td>CO</td>
-          <td>City</td>
-          <td class="column-number">$100,000</td>
-          <td class="column-number">432,000</td>
-        </tr>
-        <tr>
-          <td>City of Danbury</td>
-          <td>CT</td>
-          <td>City</td>
-          <td class="column-number">$5,000</td>
-          <td class="column-number">83,000</td>
-        </tr>
-        <tr>
-          <td>City of Des Moines</td>
-          <td>IA</td>
-          <td>City</td>
-          <td class="column-number">$25,000</td>
-          <td class="column-number">207,000</td>
-        </tr>
-        <tr>
-          <td>City of Fort Worth</td>
-          <td>TX</td>
-          <td>City</td>
-          <td class="column-number">$50,000</td>
-          <td class="column-number">778,000</td>
-        </tr>
-        <tr>
-          <td>City of Houston</td>
-          <td>TX</td>
-          <td>City</td>
-          <td class="column-number">$50,000</td>
-          <td class="column-number">2,161,000</td>
-        </tr>
-        <tr>
-          <td>City of New Haven</td>
-          <td>CT</td>
-          <td>City</td>
-          <td class="column-number">$10,000</td>
-          <td class="column-number">131,000</td>
-        </tr>
-        <tr>
-          <td>City of Oklahoma City</td>
-          <td>OK</td>
-          <td>City</td>
-          <td class="column-number">$25,000</td>
-          <td class="column-number">600,000</td>
-        </tr>
-        <tr>
-          <td>City of Pittsburgh</td>
-          <td>PA</td>
-          <td>City</td>
-          <td class="column-number">$30,000</td>
-          <td class="column-number">306,000</td>
-        </tr>
-        <tr>
-          <td>City of San Diego</td>
-          <td>CA</td>
-          <td>City</td>
-          <td class="column-number"><a title="Source of threshold" href="http://docs.sandiego.gov/municode/MuniCodeChapter02/Ch02Art02Division32.pdf#page=5">$25,000</a></td>
-          <td class="column-number">1,381,069</td>
-        </tr>
-        <tr>
-          <td>City of Stamford</td>
-          <td>CT</td>
-          <td>City</td>
-          <td class="column-number">$25,000</td>
-          <td class="column-number">125,000</td>
-        </tr>
-        <tr>
-          <td>City of Temecula</td>
-          <td>CA</td>
-          <td>City</td>
-          <td class="column-number"><a title="Source of threshold" href="http://www.cityoftemecula.org/NR/rdonlyres/33A01115-430F-40DF-9B55-E90D068B0DDF/0/PurchasingLimits.p">$30,000</a></td>
-          <td class="column-number">106,780</td>
-        </tr>
-        <tr>
-          <td>City of Tulsa</td>
-          <td>OK</td>
-          <td>City</td>
-          <td class="column-number">$25,000</td>
-          <td class="column-number">394,000</td>
-        </tr>
-        <tr>
-          <td>City of Virginia Beach</td>
-          <td>VA</td>
-          <td>City</td>
-          <td class="column-number">$50,000</td>
-          <td class="column-number">148,892</td>
-        </tr>
-        <tr>
-          <td>City of El Paso</td>
-          <td>TX</td>
-          <td>City</td>
-          <td class="column-number"><a title="Source of threshold" href="http://legacy.elpasotexas.gov/purchasing/ep-bid_policies.asp">$49,999</a></td>
-          <td class="column-number">672,538</td>
-        </tr>
-        <tr>
-          <td>Cleveland Metroparks</td>
-          <td>OH</td>
-          <td>Park District</td>
-          <td class="column-number"><a title="Source of threshold" href="http://www.clevelandmetroparks.com/Main/BiddingProcedures.aspx">$50,000</a></td>
-          <td class="column-number">390,113</td>
-        </tr>
-        <tr>
-          <td>SACOG</td>
-          <td>CA</td>
-          <td>Council of Governments</td>
-          <td class="column-number"><a title="Source of threshold" href="https://drive.google.com/file/d/0B7xNKjdrpz2mZ25BNWo5bWdyV044Tl9aamVHeVp5TlBfMDhr/view?usp=sharing">$50,000</a></td>
-          <td class="column-number">2,363,791</td>
-        </tr>
-        <tr>
-          <td>City of Plano</td>
-          <td>TX</td>
-          <td>City</td>
-          <td class="column-number"><a title="Source of threshold" href="https://www.municode.com/library/tx/plano/codes/code_of_ordinances?nodeId=PTIICOOR_CH2AD_ARTIINGE_S2-12PRCO">$50,000</a></td>
-          <td class="column-number">274,409</td>
-        </tr>
-        <tr>
-          <td>State of Minnesota</td>
-          <td>MN</td>
-          <td>State</td>
-          <td class="column-number"><a title="Source of threshold" href="https://www.revisor.mn.gov/statutes/?id=16C.06">$25,000</a></td>
-          <td class="column-number">5,457,173</td>
-        </tr>
-        <tr>
-          <td>Texas Department of Transportation</td>
-          <td>TX</td>
-          <td>DOT</td>
-          <td class="column-number"><a title="Source of threshold" href="https://drive.google.com/file/d/0B7xNKjdrpz2maTVqU0Fmd0tWTTA/view?usp=sharing">$25,000</a></td>
-          <td class="column-number">26,956,958</td>
-        </tr>
-        <tr>
-          <td>City of San Leandro</td>
-          <td>CA</td>
-          <td>City</td>
-          <td class="column-number"><a title="Source of threshold" href="http://www.sanleandro.org/depts/finance/purchasing/policy.asp">$5,000</a></td>
-          <td class="column-number">87,965</td>
-        </tr>
-        <tr>
-          <td>Marion County</td>
-          <td>OR</td>
-          <td>County</td>
-          <td class="column-number"><a title="Source of threshold" href="http://www.co.marion.or.us/FIN/Documents/SolicitationLimits2015.pdf">$20,000</a></td>
-          <td class="column-number">323,614</td>
-        </tr>
-        <tr>
-          <td>County of Solano</td>
-          <td>CA</td>
-          <td>County</td>
-          <td class="column-number"><a title="Source of threshold" href="http://www.solanocounty.com/civicax/filebank/blobdload.aspx?blobid=12011#page=10">$10,000</a></td>
-          <td class="column-number">424,788</td>
-        </tr>
-    </tbody>
-  </table>
-</div>
+      <tr>
+        <td>Salt Lake City</td>
+        <td>UT</td>
+        <td>City</td>
+        <td></td>
+        <td><a title="Source of threshold" href="http://www.slcinfobase.com/ppareo/#!WordDocuments/procurementchapter11smallpurchases.htm">$20,000</a></td>
+        <td>191,180</td>
+      </tr>
+      <tr>
+        <td>City of Alameda</td>
+        <td>CA</td>
+        <td>City</td>
+        <td></td>
+        <td><a title="Source of threshold" href="https://www.municode.com/library/ca/alameda/codes/code_of_ordinances?nodeId=CHIIAD_ARTIVCO_2-59AUCO_2-59.1FOPP">$5,000</a></td>
+        <td>76,419</td>
+      </tr>
+      <tr>
+        <td>City of Palo Alto</td>
+        <td>CA</td>
+        <td>City</td>
+        <td></td>
+        <td><a title="Source of threshold" href="http://www.amlegal.com/nxt/gateway.dll/California/paloalto_ca/title2administrativecode*/chapter230contractsandpurchasingprocedur?f=templates$fn=default.htm$3.0$vid=amlegal:paloalto_ca$anc=JD_2.30.320">$25,000</a></td>
+        <td>66,642</td>
+      </tr>
+      <tr>
+        <td>City of Baltimore</td>
+        <td>MD</td>
+        <td>City</td>
+        <td></td>
+        <td><a title="Source of threshold" href="http://archive.baltimorecity.gov/Portals/0/Charter%20and%20Codes/ChrtrPLL/01%20-%20Charter.pdf#page=138">$25,000</a></td>
+        <td>622,104</td>
+      </tr>
+      <tr>
+        <td>City of Atlanta</td>
+        <td>GA</td>
+        <td>City</td>
+        <td></td>
+        <td><a title="Source of threshold" href="https://www.municode.com/library/ga/atlanta/codes/code_of_ordinances?nodeId=PTIICOORENOR_CH2AD_ARTXPRREESCO_DIV4SOSECOFO_S2-1190SMPU">$20,000</a></td>
+        <td>440,000</td>
+      </tr>
+      <tr>
+        <td>City of Austin</td>
+        <td>TX</td>
+        <td>City</td>
+        <td></td>
+        <td><a title="Source of threshold" href="https://www.municode.com/library/tx/austin/codes/code_of_ordinances?searchRequest=%7B%22searchText%22%3A%22purchasing%22%2C%22pageNum%22%3A1%2C%22resultsPerPage%22%3A25%2C%22booleanSearch%22%3Afalse%2C%22stemming%22%3Atrue%2C%22fuzzy%22%3Afalse%2C%22synonym%22%3Afalse%2C%22contentTypes%22%3A%5B%22CODES%22%5D%2C%22productIds%22%3A%5B%5D%7D&amp;nodeId=CH_ARTVIIFI_S15PUPR">$5,000</a></td>
+        <td>840,000</td>
+      </tr>
+      <tr>
+        <td>City of Boston</td>
+        <td>MA</td>
+        <td>City</td>
+        <td></td>
+        <td><a title="Source of threshold" href="http://www.cityofboston.gov/procurement/information/">$5,000</a></td>
+        <td>645,966</td>
+      </tr>
+      <tr>
+        <td>City of Charlotte</td>
+        <td>NC</td>
+        <td>City</td>
+        <td></td>
+        <td><a title="Source of threshold" href="http://www.charlottecountyfl.com/Purchasing/howto.asp">$5,000</a></td>
+        <td>780,000</td>
+      </tr>
+      <tr>
+        <td>City of Chattanooga</td>
+        <td>TN</td>
+        <td>City</td>
+        <td></td>
+        <td><a title="Source of threshold" href="http://www.chattanooga.gov/general-services-files/purchasing/PurchasingManual.pdf#page=16">$24,999</a></td>
+        <td>173,366</td>
+      </tr>
+      <tr>
+        <td>City of Chicago</td>
+        <td>IL</td>
+        <td>City</td>
+        <td></td>
+        <td><a title="Source of threshold" href="http://www.cityofchicago.org/dam/city/depts/dps/Outreach/ProcurementFundamentalsGuideMay262010.pdf#page=10">$10,000</a></td>
+        <td>2,722,389</td>
+      </tr>
+      <tr>
+        <td>City of Denver</td>
+        <td>CO</td>
+        <td>City</td>
+        <td></td>
+        <td><a title="Source of threshold" href="https://www.denvergov.org/Portals/573/documents/HowToDoBusinessWithCCD_BidNet_ORD_Rev01_04182014.pdf#page=8">$25,000</a></td>
+        <td>649,495</td>
+      </tr>
+      <tr>
+        <td>City of Detroit</td>
+        <td>MI</td>
+        <td>City</td>
+        <td></td>
+        <td><a title="Source of threshold" href="http://www.detroitmi.gov/How-Do-I/Do-Business-with-the-City/Items-Out-To-Bid-Information">$25,000</a></td>
+        <td>700,000</td>
+      </tr>
+      <tr>
+        <td>City of Honolulu</td>
+        <td>HI</td>
+        <td>City</td>
+        <td></td>
+        <td><a title="Source of threshold" href="http://www.honolulu.gov/rep/site/bfspur/bfspur_docs/How_the_City_Buys_2015.pdf#page=3">$5,000</a></td>
+        <td>374,658</td>
+      </tr>
+      <tr>
+        <td>City of Kansas City</td>
+        <td>KS</td>
+        <td>City</td>
+        <td></td>
+        <td>$20,000</td>
+        <td>150,000</td>
+      </tr>
+      <tr>
+        <td>City of Las Vegas</td>
+        <td>NV</td>
+        <td>City</td>
+        <td></td>
+        <td>$50,000</td>
+        <td>600,000</td>
+      </tr>
+      <tr>
+        <td>City of Lexington</td>
+        <td>KY</td>
+        <td>City</td>
+        <td></td>
+        <td>$25,000</td>
+        <td>300,000</td>
+      </tr>
+      <tr>
+        <td>City of Long Beach</td>
+        <td>CA</td>
+        <td>City</td>
+        <td></td>
+        <td><a title="Source of threshold" href="https://www.municode.com/library/ca/long_beach/codes/municipal_code?nodeId=TIT2ADPE_CH2.84CO_DIVIGESUMA_2.84.010AUPUAGOTCO">$100,000</a></td>
+        <td>469,428</td>
+      </tr>
+      <tr>
+        <td>City of Louisville</td>
+        <td>KY</td>
+        <td>City</td>
+        <td></td>
+        <td><a title="Source of threshold" href="http://louisvilleky.gov/sites/default/files/internal_audit/audit_reports/2013-08_lmg_supplier_payment_threshold.pdf#page=9">$10,000</a></td>
+        <td>253,128</td>
+      </tr>
+      <tr>
+        <td>City of Macon</td>
+        <td>GA</td>
+        <td>City</td>
+        <td></td>
+        <td>$10,000</td>
+        <td>90,000</td>
+      </tr>
+      <tr>
+        <td>City of Mesa</td>
+        <td>AZ</td>
+        <td>City</td>
+        <td></td>
+        <td>$25,000</td>
+        <td>450,000</td>
+      </tr>
+      <tr>
+        <td>City of New Orleans</td>
+        <td>LA</td>
+        <td>City</td>
+        <td></td>
+        <td>$15,000</td>
+        <td>370,000</td>
+      </tr>
+      <tr>
+        <td>City of New York</td>
+        <td>NY</td>
+        <td>City</td>
+        <td></td>
+        <td>$100,000</td>
+        <td>8,340,000</td>
+      </tr>
+      <tr>
+        <td>City of Oakland</td>
+        <td>CA</td>
+        <td>City</td>
+        <td></td>
+        <td>$25,000</td>
+        <td>400,000</td>
+      </tr>
+      <tr>
+        <td>City of Philadelphia</td>
+        <td>PA</td>
+        <td>City</td>
+        <td></td>
+        <td><a title="Source of threshold" href="http://mbec.phila.gov/procurement/forms/Vendorguide.pdf#page=7">$32,000</a></td>
+        <td>1,560,297</td>
+      </tr>
+      <tr>
+        <td>City of San Antonio</td>
+        <td>TX</td>
+        <td>City</td>
+        <td></td>
+        <td>$50,000</td>
+        <td>1,380,000</td>
+      </tr>
+      <tr>
+        <td>City of San Francisco</td>
+        <td>CA</td>
+        <td>City</td>
+        <td></td>
+        <td>$10,000</td>
+        <td>830,000</td>
+      </tr>
+      <tr>
+        <td>County of San Mateo</td>
+        <td>CA</td>
+        <td>County</td>
+        <td></td>
+        <td>$100,000</td>
+        <td>740,000</td>
+      </tr>
+      <tr>
+        <td>City of Santa Cruz</td>
+        <td>CA</td>
+        <td>City</td>
+        <td></td>
+        <td>$100,000</td>
+        <td>60,000</td>
+      </tr>
+      <tr>
+        <td>City of Savannah</td>
+        <td>GA</td>
+        <td>City</td>
+        <td></td>
+        <td><a title="Source of threshold" href="http://savannahga.gov/index.aspx?NID=598">$25,000</a></td>
+        <td>142,700</td>
+      </tr>
+      <tr>
+        <td>City of Seattle</td>
+        <td>WA</td>
+        <td>City</td>
+        <td></td>
+        <td>$47,000</td>
+        <td>630,000</td>
+      </tr>
+      <tr>
+        <td>City of South Bend</td>
+        <td>IN</td>
+        <td>City</td>
+        <td></td>
+        <td>$75,000</td>
+        <td>100,000</td>
+      </tr>
+      <tr>
+        <td>State of Rhode Island</td>
+        <td>RI</td>
+        <td>State</td>
+        <td></td>
+        <td>$500,000</td>
+        <td>1,050,000</td>
+      </tr>
+      <tr>
+        <td>City of Alexandria</td>
+        <td>VA</td>
+        <td>City</td>
+        <td></td>
+        <td>$50,000</td>
+        <td>4,031,000</td>
+      </tr>
+      <tr>
+        <td>City of Colorado Springs</td>
+        <td>CO</td>
+        <td>City</td>
+        <td></td>
+        <td>$100,000</td>
+        <td>432,000</td>
+      </tr>
+      <tr>
+        <td>City of Danbury</td>
+        <td>CT</td>
+        <td>City</td>
+        <td></td>
+        <td>$5,000</td>
+        <td>83,000</td>
+      </tr>
+      <tr>
+        <td>City of Des Moines</td>
+        <td>IA</td>
+        <td>City</td>
+        <td></td>
+        <td>$25,000</td>
+        <td>207,000</td>
+      </tr>
+      <tr>
+        <td>City of Fort Worth</td>
+        <td>TX</td>
+        <td>City</td>
+        <td></td>
+        <td>$50,000</td>
+        <td>778,000</td>
+      </tr>
+      <tr>
+        <td>City of Houston</td>
+        <td>TX</td>
+        <td>City</td>
+        <td></td>
+        <td>$50,000</td>
+        <td>2,161,000</td>
+      </tr>
+      <tr>
+        <td>City of New Haven</td>
+        <td>CT</td>
+        <td>City</td>
+        <td></td>
+        <td>$10,000</td>
+        <td>131,000</td>
+      </tr>
+      <tr>
+        <td>City of Oklahoma City</td>
+        <td>OK</td>
+        <td>City</td>
+        <td></td>
+        <td>$25,000</td>
+        <td>600,000</td>
+      </tr>
+      <tr>
+        <td>City of Pittsburgh</td>
+        <td>PA</td>
+        <td>City</td>
+        <td></td>
+        <td>$30,000</td>
+        <td>306,000</td>
+      </tr>
+      <tr>
+        <td>City of San Diego</td>
+        <td>CA</td>
+        <td>City</td>
+        <td></td>
+        <td><a title="Source of threshold" href="http://docs.sandiego.gov/municode/MuniCodeChapter02/Ch02Art02Division32.pdf#page=5">$25,000</a></td>
+        <td>1,381,069</td>
+      </tr>
+      <tr>
+        <td>City of Stamford</td>
+        <td>CT</td>
+        <td>City</td>
+        <td></td>
+        <td>$25,000</td>
+        <td>125,000</td>
+      </tr>
+      <tr>
+        <td>City of Temecula</td>
+        <td>CA</td>
+        <td>City</td>
+        <td></td>
+        <td><a title="Source of threshold" href="http://www.cityoftemecula.org/NR/rdonlyres/33A01115-430F-40DF-9B55-E90D068B0DDF/0/PurchasingLimits.p">$30,000</a></td>
+        <td>106,780</td>
+      </tr>
+      <tr>
+        <td>City of Tulsa</td>
+        <td>OK</td>
+        <td>City</td>
+        <td></td>
+        <td>$25,000</td>
+        <td>394,000</td>
+      </tr>
+      <tr>
+        <td>City of Virginia Beach</td>
+        <td>VA</td>
+        <td>City</td>
+        <td></td>
+        <td>$50,000</td>
+        <td>148,892</td>
+      </tr>
+      <tr>
+        <td>City of El Paso</td>
+        <td>TX</td>
+        <td>City</td>
+        <td></td>
+        <td><a title="Source of threshold" href="http://legacy.elpasotexas.gov/purchasing/ep-bid_policies.asp">$49,999</a></td>
+        <td>672,538</td>
+      </tr>
+      <tr>
+        <td>Cleveland Metroparks</td>
+        <td>OH</td>
+        <td>Park District</td>
+        <td></td>
+        <td><a title="Source of threshold" href="http://www.clevelandmetroparks.com/Main/BiddingProcedures.aspx">$50,000</a></td>
+        <td>390,113</td>
+      </tr>
+      <tr>
+        <td>SACOG</td>
+        <td>CA</td>
+        <td>Council of Governments</td>
+        <td></td>
+        <td><a title="Source of threshold" href="https://drive.google.com/file/d/0B7xNKjdrpz2mZ25BNWo5bWdyV044Tl9aamVHeVp5TlBfMDhr/view?usp=sharing">$50,000</a></td>
+        <td>2,363,791</td>
+      </tr>
+      <tr>
+        <td>City of Plano</td>
+        <td>TX</td>
+        <td>City</td>
+        <td></td>
+        <td><a title="Source of threshold" href="https://www.municode.com/library/tx/plano/codes/code_of_ordinances?nodeId=PTIICOOR_CH2AD_ARTIINGE_S2-12PRCO">$50,000</a></td>
+        <td>274,409</td>
+      </tr>
+      <tr>
+        <td>State of Minnesota</td>
+        <td>MN</td>
+        <td>State</td>
+        <td></td>
+        <td><a title="Source of threshold" href="https://www.revisor.mn.gov/statutes/?id=16C.06">$25,000</a></td>
+        <td>5,457,173</td>
+      </tr>
+      <tr>
+        <td>Texas Department of Transportation</td>
+        <td>TX</td>
+        <td>DOT</td>
+        <td></td>
+        <td><a title="Source of threshold" href="https://drive.google.com/file/d/0B7xNKjdrpz2maTVqU0Fmd0tWTTA/view?usp=sharing">$25,000</a></td>
+        <td>26,956,958</td>
+      </tr>
+      <tr>
+        <td>City of San Leandro</td>
+        <td>CA</td>
+        <td>City</td>
+        <td></td>
+        <td><a title="Source of threshold" href="http://www.sanleandro.org/depts/finance/purchasing/policy.asp">$5,000</a></td>
+        <td>87,965</td>
+      </tr>
+      <tr>
+        <td>Marion County</td>
+        <td>OR</td>
+        <td>County</td>
+        <td></td>
+        <td><a title="Source of threshold" href="http://www.co.marion.or.us/FIN/Documents/SolicitationLimits2015.pdf">$20,000</a></td>
+        <td>323,614</td>
+      </tr>
+      <tr>
+        <td>County of Solano</td>
+        <td>CA</td>
+        <td>County</td>
+        <td></td>
+        <td><a title="Source of threshold" href="http://www.solanocounty.com/civicax/filebank/blobdload.aspx?blobid=12011#page=10">$10,000</a></td>
+        <td>424,788</td>
+      </tr>
+  </tbody>
+</table>
+
+    <a class="btn btn-primary" href="procurement.csv">Download all data in CSV format</a>
+  </section>
+
+  <section class="terminology">
+    <h2 id="terminology">Terminology</h2>
+
+<p>Every agency has different rules for purchasing. Here are some guidelines for the 2
+  thresholds we track on Open Procure. These rules are necessarily vague. Select the
+  thresholds that fit best when adding a new agency.</p>
+
+<p><strong>Discretionary threshold</strong> is what a department can purchase on its own.
+  This typically means the department leader has the authority to select a vendor and
+  approve the purchase.</p>
+
+<p><strong>Formal threshold</strong> is what an agency can purchase before requiring a
+  public bid.  Purchases below this limit typically involve the purchasing department and
+  require several qoutes or a single source document, but don't require a request for
+  proposal (RFP) to be posted publicly by the purchasing agency.</p>
+
+<p><em>Department</em> can mean group, division, city depending on the agency.</p>
 
 
-  <h3><a class="download-csv" href="procurement.csv">Download all data in CSV format</a></h3>
-
+  </section>
+      
   <footer class="site-footer">
   <div class="addthis_sharing_toolbox"><span class="share-message">Share this list</span></div>
 
@@ -543,8 +610,7 @@ This work is published from:
 </script>
   
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="js/all-3730fb8f.js" type="text/javascript"></script>
+    <script src="js/all-56253986.js" type="text/javascript"></script>
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-561917495db2593a" async="async"></script>
 
     <script src="//my.hellobar.com/6e0f2864fe05e527d76afaf8ea2261f6e95b2a66.js" type="text/javascript" charset="utf-8" async="async">
