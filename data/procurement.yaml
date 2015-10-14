@@ -2,421 +2,421 @@
 - agency: County of Sacramento
   state: CA
   type: County
-  threshold: $100,000
+  formal_threshold: $100,000
+  formal_url: 'http://www.dgs.saccounty.net/capsd/Pages/County-Purchasing-Code.aspx#2.56.250'
   population: 1,418,788
-  url: 'http://www.dgs.saccounty.net/capsd/Pages/County-Purchasing-Code.aspx#2.56.250'
   contributed_by: Alan Mond
   updated_at: 2015-10-07
 - agency: Salt Lake City
   state: UT
   type: City
-  threshold: $20,000
+  formal_threshold: $20,000
+  formal_url: 'http://www.slcinfobase.com/ppareo/#!WordDocuments/procurementchapter11smallpurchases.htm'
   population: 191,180
-  url: 'http://www.slcinfobase.com/ppareo/#!WordDocuments/procurementchapter11smallpurchases.htm'
   contributed_by: Alan Mond
   updated_at: 2015-10-07
 - agency: City of Alameda
   state: CA
   type: City
-  threshold: $5,000
+  formal_threshold: $5,000
+  formal_url: 'https://www.municode.com/library/ca/alameda/codes/code_of_ordinances?nodeId=CHIIAD_ARTIVCO_2-59AUCO_2-59.1FOPP'
   population: 76,419
-  url: 'https://www.municode.com/library/ca/alameda/codes/code_of_ordinances?nodeId=CHIIAD_ARTIVCO_2-59AUCO_2-59.1FOPP'
   contributed_by: Alan Mond
   updated_at: 2015-10-07
 - agency: City of Palo Alto
   state: CA
   type: City
-  threshold: $25,000
+  formal_threshold: $25,000
+  formal_url: 'http://www.amlegal.com/nxt/gateway.dll/California/paloalto_ca/title2administrativecode*/chapter230contractsandpurchasingprocedur?f=templates$fn=default.htm$3.0$vid=amlegal:paloalto_ca$anc=JD_2.30.320'
   population: 66,642
-  url: 'http://www.amlegal.com/nxt/gateway.dll/California/paloalto_ca/title2administrativecode*/chapter230contractsandpurchasingprocedur?f=templates$fn=default.htm$3.0$vid=amlegal:paloalto_ca$anc=JD_2.30.320'
   contributed_by: Alan Mond
   updated_at: 2015-10-07
 - agency: City of Baltimore
   state: MD
   type: City
-  threshold: $25,000
+  formal_threshold: $25,000
+  formal_url: 'http://archive.baltimorecity.gov/Portals/0/Charter%20and%20Codes/ChrtrPLL/01%20-%20Charter.pdf#page=138'
   population: 622,104
-  url: 'http://archive.baltimorecity.gov/Portals/0/Charter%20and%20Codes/ChrtrPLL/01%20-%20Charter.pdf#page=138'
   contributed_by: Alan Mond
   updated_at: 2015-10-07
 - agency: City of Atlanta
   state: GA
   type: City
-  threshold: $20,000
+  formal_threshold: $20,000
+  formal_url: https://www.municode.com/library/ga/atlanta/codes/code_of_ordinances?nodeId=PTIICOORENOR_CH2AD_ARTXPRREESCO_DIV4SOSECOFO_S2-1190SMPU
   population: 440000
-  url: https://www.municode.com/library/ga/atlanta/codes/code_of_ordinances?nodeId=PTIICOORENOR_CH2AD_ARTXPRREESCO_DIV4SOSECOFO_S2-1190SMPU
   contributed_by: Kenny Cunanan
   updated_at: 2015-01-15
 - agency: City of Austin
   state: TX
   type: City
-  threshold: $5,000
-  url: https://www.municode.com/library/tx/austin/codes/code_of_ordinances?searchRequest=%7B%22searchText%22%3A%22purchasing%22%2C%22pageNum%22%3A1%2C%22resultsPerPage%22%3A25%2C%22booleanSearch%22%3Afalse%2C%22stemming%22%3Atrue%2C%22fuzzy%22%3Afalse%2C%22synonym%22%3Afalse%2C%22contentTypes%22%3A%5B%22CODES%22%5D%2C%22productIds%22%3A%5B%5D%7D&nodeId=CH_ARTVIIFI_S15PUPR
-  population: 840000
+  formal_threshold: $5,000
+  formal_url: https://www.municode.com/library/tx/austin/codes/code_of_ordinances?searchRequest=%7B%22searchText%22%3A%22purchasing%22%2C%22pageNum%22%3A1%2C%22resultsPerPage%22%3A25%2C%22booleanSearch%22%3Afalse%2C%22stemming%22%3Atrue%2C%22fuzzy%22%3Afalse%2C%22synonym%22%3Afalse%2C%22contentTypes%22%3A%5B%22CODES%22%5D%2C%22productIds%22%3A%5B%5D%7D&nodeId=CH_ARTVIIFI_S15PUPR
   contributed_by: Kenny Cunanan
+  population: 840000
   updated_at: 2015-01-15
 - agency: City of Boston
   state: MA
   type: City
-  threshold: $5,000
+  formal_threshold: $5,000
+  formal_url: 'http://www.cityofboston.gov/procurement/information/'
   population: 645,966
-  url: 'http://www.cityofboston.gov/procurement/information/'
   contributed_by: Alan Mond
   updated_at: 2015-10-07
 - agency: City of Charlotte
   state: NC
   type: City
-  threshold: $5,000
-  url: http://www.charlottecountyfl.com/Purchasing/howto.asp
-  population: 780000
+  formal_threshold: $5,000
+  formal_url: http://www.charlottecountyfl.com/Purchasing/howto.asp
   contributed_by: Kenny Cunanan
+  population: 780000
   updated_at: 2015-01-15
 - agency: City of Chattanooga
   state: TN
   type: City
-  threshold: $24,999
+  formal_threshold: $24,999
+  formal_url: 'http://www.chattanooga.gov/general-services-files/purchasing/PurchasingManual.pdf#page=16'
   population: 173,366
-  url: 'http://www.chattanooga.gov/general-services-files/purchasing/PurchasingManual.pdf#page=16'
   contributed_by: Alan Mond
   updated_at: 2015-10-07
 - agency: City of Chicago
   state: IL
   type: City
-  threshold: $10,000
+  formal_threshold: $10,000
+  formal_url: 'http://www.cityofchicago.org/dam/city/depts/dps/Outreach/ProcurementFundamentalsGuideMay262010.pdf#page=10'
   population: 2,722,389
-  url: 'http://www.cityofchicago.org/dam/city/depts/dps/Outreach/ProcurementFundamentalsGuideMay262010.pdf#page=10'
   contributed_by: Alan Mond
   updated_at: 2015-10-07
 - agency: City of Denver
   state: CO
   type: City
-  threshold: $25,000
+  formal_threshold: $25,000
+  formal_url: 'https://www.denvergov.org/Portals/573/documents/HowToDoBusinessWithCCD_BidNet_ORD_Rev01_04182014.pdf#page=8'
   population: 649,495
-  url: 'https://www.denvergov.org/Portals/573/documents/HowToDoBusinessWithCCD_BidNet_ORD_Rev01_04182014.pdf#page=8'
   contributed_by: Alan Mond
   updated_at: 2015-10-07
 - agency: City of Detroit
   state: MI
   type: City
-  threshold: $25,000
+  formal_threshold: $25,000
+  formal_url: http://www.detroitmi.gov/How-Do-I/Do-Business-with-the-City/Items-Out-To-Bid-Information
   population: 700000
-  url: http://www.detroitmi.gov/How-Do-I/Do-Business-with-the-City/Items-Out-To-Bid-Information
   contributed_by: Kenny Cunanan
   updated_at: 2015-01-15
 - agency: City of Honolulu
   state: HI
   type: City
-  threshold: $5,000
+  formal_threshold: $5,000
+  formal_url: http://www.honolulu.gov/rep/site/bfspur/bfspur_docs/How_the_City_Buys_2015.pdf#page=3
   population: 374,658
-  url: http://www.honolulu.gov/rep/site/bfspur/bfspur_docs/How_the_City_Buys_2015.pdf#page=3
   contributed_by: Kenny Cunanan
   updated_at: 2015-01-15
 - agency: City of Kansas City
   state: KS
   type: City
-  threshold: $20,000
-  population: 150000
+  formal_threshold: $20,000
   contributed_by: Kenny Cunanan
+  population: 150000
   updated_at: 2015-01-15
 - agency: City of Las Vegas
   state: NV
   type: City
-  threshold: $50,000
-  population: 600000
+  formal_threshold: $50,000
   contributed_by: Kenny Cunanan
+  population: 600000
   updated_at: 2015-01-15
 - agency: City of Lexington
   state: KY
   type: City
-  threshold: $25,000
-  population: 300000
+  formal_threshold: $25,000
   contributed_by: Kenny Cunanan
+  population: 300000
   updated_at: 2015-01-15
 - agency: City of Long Beach
   state: CA
   type: City
-  threshold: $100,000
+  formal_threshold: $100,000
+  formal_url: 'https://www.municode.com/library/ca/long_beach/codes/municipal_code?nodeId=TIT2ADPE_CH2.84CO_DIVIGESUMA_2.84.010AUPUAGOTCO'
   population: 469,428
-  url: 'https://www.municode.com/library/ca/long_beach/codes/municipal_code?nodeId=TIT2ADPE_CH2.84CO_DIVIGESUMA_2.84.010AUPUAGOTCO'
   contributed_by: Alan Mond
   updated_at: 2015-10-07
 - agency: City of Louisville
   state: KY
   type: City
-  threshold: $10,000
+  formal_threshold: $10,000
+  formal_url: 'http://louisvilleky.gov/sites/default/files/internal_audit/audit_reports/2013-08_lmg_supplier_payment_threshold.pdf#page=9'
   population: 253,128
-  url: 'http://louisvilleky.gov/sites/default/files/internal_audit/audit_reports/2013-08_lmg_supplier_payment_threshold.pdf#page=9'
   contributed_by: Alan Mond
   updated_at: 2015-10-07
 - agency: City of Macon
   state: GA
   type: City
-  threshold: $10,000
-  population: 90000
+  formal_threshold: $10,000
   contributed_by: Kenny Cunanan
+  population: 90000
   updated_at: 2015-01-15
 - agency: City of Mesa
   state: AZ
   type: City
-  threshold: $25,000
-  population: 450000
+  formal_threshold: $25,000
   contributed_by: Kenny Cunanan
+  population: 450000
   updated_at: 2015-01-15
 - agency: City of New Orleans
   state: LA
   type: City
-  threshold: $15,000
-  population: 370000
+  formal_threshold: $15,000
   contributed_by: Kenny Cunanan
+  population: 370000
   updated_at: 2015-01-15
 - agency: City of New York
   state: NY
   type: City
-  threshold: $100,000
-  population: 8340000
+  formal_threshold: $100,000
   contributed_by: Kenny Cunanan
+  population: 8340000
   updated_at: 2015-01-15
 - agency: City of Oakland
   state: CA
   type: City
-  threshold: $25,000
-  population: 400000
+  formal_threshold: $25,000
   contributed_by: Kenny Cunanan
+  population: 400000
   updated_at: 2015-01-15
 - agency: City of Philadelphia
   state: PA
   type: City
-  threshold: $32,000
+  formal_threshold: $32,000
+  formal_url: 'http://mbec.phila.gov/procurement/forms/Vendorguide.pdf#page=7'
   population: 1,560,297
-  url: 'http://mbec.phila.gov/procurement/forms/Vendorguide.pdf#page=7'
   contributed_by: Mark Headd
   updated_at: 2015-10-07
 - agency: City of San Antonio
   state: TX
   type: City
-  threshold: $50,000
-  population: 1380000
+  formal_threshold: $50,000
   contributed_by: Kenny Cunanan
+  population: 1380000
   updated_at: 2015-01-15
 - agency: City of San Francisco
   state: CA
   type: City
-  threshold: $10,000
-  population: 830000
+  formal_threshold: $10,000
   contributed_by: Kenny Cunanan
+  population: 830000
   updated_at: 2015-01-15
 - agency: County of San Mateo
   state: CA
   type: County
-  threshold: $100,000
-  population: 740000
+  formal_threshold: $100,000
   contributed_by: Kenny Cunanan
+  population: 740000
   updated_at: 2015-01-15
 - agency: City of Santa Cruz
   state: CA
   type: City
-  threshold: $100,000
-  population: 60000
+  formal_threshold: $100,000
   contributed_by: Kenny Cunanan
+  population: 60000
   updated_at: 2015-01-15
 - agency: City of Savannah
   state: GA
   type: City
-  threshold: $25,000
+  formal_threshold: $25,000
+  formal_url: http://savannahga.gov/index.aspx?NID=598
   population: 142,700
-  url: http://savannahga.gov/index.aspx?NID=598
   contributed_by: Carl V. Lewis
   updated_at: 2015-10-14
 - agency: City of Seattle
   state: WA
   type: City
-  threshold: $47,000
-  population: 630000
+  formal_threshold: $47,000
   contributed_by: Kenny Cunanan
+  population: 630000
   updated_at: 2015-01-15
 - agency: City of South Bend
   state: IN
   type: City
-  threshold: $75,000
-  population: 100000
+  formal_threshold: $75,000
   contributed_by: Kenny Cunanan
+  population: 100000
   updated_at: 2015-01-15
 - agency: State of Rhode Island
   state: RI
   type: State
-  threshold: $500,000
-  population: 1050000
+  formal_threshold: $500,000
   contributed_by: Kenny Cunanan
+  population: 1050000
   updated_at: 2015-01-15
 - agency: City of Alexandria
   state: VA
   type: City
-  threshold: $50,000
-  population: 4031000
+  formal_threshold: $50,000
   contributed_by: Kenny Cunanan
+  population: 4031000
   updated_at: 2015-01-15
 - agency: City of Colorado Springs
   state: CO
   type: City
-  threshold: $100,000
-  population: 432000
+  formal_threshold: $100,000
   contributed_by: Kenny Cunanan
+  population: 432000
   updated_at: 2015-01-15
 - agency: City of Danbury
   state: CT
   type: City
-  threshold: $5,000
-  population: 83000
+  formal_threshold: $5,000
   contributed_by: Kenny Cunanan
+  population: 83000
   updated_at: 2015-01-15
 - agency: City of Des Moines
   state: IA
   type: City
-  threshold: $25,000
-  population: 207000
+  formal_threshold: $25,000
   contributed_by: Kenny Cunanan
+  population: 207000
   updated_at: 2015-01-15
 - agency: City of Fort Worth
   state: TX
   type: City
-  threshold: $50,000
-  population: 778000
+  formal_threshold: $50,000
   contributed_by: Kenny Cunanan
+  population: 778000
   updated_at: 2015-01-15
 - agency: City of Houston
   state: TX
   type: City
-  threshold: $50,000
-  population: 2161000
+  formal_threshold: $50,000
   contributed_by: Kenny Cunanan
+  population: 2161000
   updated_at: 2015-01-15
 - agency: City of New Haven
   state: CT
   type: City
-  threshold: $10,000
-  population: 131000
+  formal_threshold: $10,000
   contributed_by: Kenny Cunanan
+  population: 131000
   updated_at: 2015-01-15
 - agency: City of Oklahoma City
   state: OK
   type: City
-  threshold: $25,000
-  population: 600000
+  formal_threshold: $25,000
   contributed_by: Kenny Cunanan
+  population: 600000
   updated_at: 2015-01-15
 - agency: City of Pittsburgh
   state: PA
   type: City
-  threshold: $30,000
-  population: 306000
+  formal_threshold: $30,000
   contributed_by: Kenny Cunanan
+  population: 306000
   updated_at: 2015-01-15
 - agency: City of San Diego
   state: CA
   type: City
-  threshold: $25,000
+  formal_threshold: $25,000
+  formal_url: 'http://docs.sandiego.gov/municode/MuniCodeChapter02/Ch02Art02Division32.pdf#page=5'
   population: 1,381,069
-  url: 'http://docs.sandiego.gov/municode/MuniCodeChapter02/Ch02Art02Division32.pdf#page=5'
   contributed_by: Alan Mond
   updated_at: 2015-10-07
 - agency: City of Stamford
   state: CT
   type: City
-  threshold: $25,000
-  population: 125000
+  formal_threshold: $25,000
   contributed_by: Kenny Cunanan
+  population: 125000
   updated_at: 2015-01-15
 - agency: City of Temecula
   state: CA
   type: City
-  threshold: $30,000
+  formal_threshold: $30,000
+  formal_url: 'http://www.cityoftemecula.org/NR/rdonlyres/33A01115-430F-40DF-9B55-E90D068B0DDF/0/PurchasingLimits.p'
   population: 106,780
-  url: 'http://www.cityoftemecula.org/NR/rdonlyres/33A01115-430F-40DF-9B55-E90D068B0DDF/0/PurchasingLimits.p'
   contributed_by: Alan Mond
   updated_at: 2015-10-07
 - agency: City of Tulsa
   state: OK
   type: City
-  threshold: $25,000
-  population: 394000
+  formal_threshold: $25,000
   contributed_by: Kenny Cunanan
+  population: 394000
   updated_at: 2015-01-15
 - agency: City of Virginia Beach
   state: VA
   type: City
-  threshold: $50,000
-  population: 148,892
+  formal_threshold: $50,000
   contributed_by: Kenny Cunanan
+  population: 148,892
   updated_at: 2015-01-15
 - agency: City of El Paso
   state: TX
   type: City
-  threshold: $49,999
+  formal_threshold: $49,999
+  formal_url: 'http://legacy.elpasotexas.gov/purchasing/ep-bid_policies.asp'
   population: 672,538
-  url: 'http://legacy.elpasotexas.gov/purchasing/ep-bid_policies.asp'
   contributed_by: Alan Mond
   updated_at: 2015-10-07
 - agency: Cleveland Metroparks
   state: OH
   type: Park District
-  threshold: $50,000
+  formal_threshold: $50,000
+  formal_url: 'http://www.clevelandmetroparks.com/Main/BiddingProcedures.aspx'
   population: 390,113
-  url: 'http://www.clevelandmetroparks.com/Main/BiddingProcedures.aspx'
   contributed_by: Alan Mond
   updated_at: 2015-10-07
 - agency: SACOG
   state: CA
   type: Council of Governments
-  threshold: $50,000
+  formal_threshold: $50,000
+  formal_url: 'https://drive.google.com/file/d/0B7xNKjdrpz2mZ25BNWo5bWdyV044Tl9aamVHeVp5TlBfMDhr/view?usp=sharing'
   population: 2,363,791
-  url: 'https://drive.google.com/file/d/0B7xNKjdrpz2mZ25BNWo5bWdyV044Tl9aamVHeVp5TlBfMDhr/view?usp=sharing'
   contributed_by: Alan Mond
   updated_at: 2015-10-07
 - agency: City of Plano
   state: TX
   type: City
-  threshold: $50,000
+  formal_threshold: $50,000
+  formal_url: 'https://www.municode.com/library/tx/plano/codes/code_of_ordinances?nodeId=PTIICOOR_CH2AD_ARTIINGE_S2-12PRCO'
   population: 274,409
-  url: 'https://www.municode.com/library/tx/plano/codes/code_of_ordinances?nodeId=PTIICOOR_CH2AD_ARTIINGE_S2-12PRCO'
   contributed_by: Alan Mond
   updated_at: 2015-10-07
 - agency: State of Minnesota
   state: MN
   type: State
-  threshold: $25,000
+  formal_threshold: $25,000
+  formal_url: 'https://www.revisor.mn.gov/statutes/?id=16C.06'
   population: 5,457,173
-  url: 'https://www.revisor.mn.gov/statutes/?id=16C.06'
   contributed_by: Alan Mond
   updated_at: 2015-10-08
 - agency: Texas Department of Transportation
   state: TX
   type: DOT
-  threshold: $25,000
+  formal_threshold: $25,000
+  formal_url: 'https://drive.google.com/file/d/0B7xNKjdrpz2maTVqU0Fmd0tWTTA/view?usp=sharing'
   population: 26,956,958
-  url: 'https://drive.google.com/file/d/0B7xNKjdrpz2maTVqU0Fmd0tWTTA/view?usp=sharing'
   contributed_by: Alan Mond
   updated_at: 2015-10-09
 - agency: City of San Leandro
   state: CA
   type: City
-  threshold: $5,000
+  formal_threshold: $5,000
+  formal_url: 'http://www.sanleandro.org/depts/finance/purchasing/policy.asp'
   population: 87,965
-  url: 'http://www.sanleandro.org/depts/finance/purchasing/policy.asp'
   contributed_by: Deborah Acosta
   updated_at: 2015-10-13
 - agency: Marion County
   state: OR
   type: County
-  threshold: $20,000
+  formal_threshold: $20,000
+  formal_url: 'http://www.co.marion.or.us/FIN/Documents/SolicitationLimits2015.pdf'
   population: 323,614
-  url: 'http://www.co.marion.or.us/FIN/Documents/SolicitationLimits2015.pdf'
   contributed_by: Alan Mond
   updated_at: 2015-10-13
 - agency: County of Solano
   state: CA
   type: County
-  threshold: $10,000
+  formal_threshold: $10,000
+  formal_url: 'http://www.solanocounty.com/civicax/filebank/blobdload.aspx?blobid=12011#page=10'
   population: 424,788
-  url: 'http://www.solanocounty.com/civicax/filebank/blobdload.aspx?blobid=12011#page=10'
   contributed_by: Ryan Wold
   updated_at: 2015-10-13

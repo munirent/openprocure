@@ -1,39 +1,35 @@
-<div class="table-center">
-  <span class="filters">
-    <span>Filters:</span>
-    <%= partial "filter_values", locals: {
-      column: :state,
-      placeholder: "State"
-    } %>
-    <%= partial "filter_values", locals: {
-      column: :type,
-      placeholder: "Agency Type"
-    } %>
-    <%= partial "filter_breakpoints", locals: {
-      column: :threshold,
-      placeholder: "Threshold",
-      breakpoints: ["< $25,000", "$25,000 to $50,000", ">= $50,000"]} %>
-  </span>
-  <table class="center procurement-table">
-    <thead>
+<span class="filters">
+  <span>Filters:</span>
+  <%= partial "filter_values", locals: {
+    column: :state,
+    placeholder: "State"
+  } %>
+  <%= partial "filter_values", locals: {
+    column: :type,
+    placeholder: "Agency Type"
+  } %>
+</span>
+<table class="procurement-table">
+  <thead>
+    <tr>
+      <th class="column-text">Agency</th>
+      <th class="column-text">State</th>
+      <th class="column-text" data-dynatable-column="type">Agency Type</th>
+      <th class="column-number">Discretionary Threshold</th>
+      <th class="column-number">Formal Threshold</th>
+      <th class="column-number">Population</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% data.procurement.each do |procurement| %>
       <tr>
-        <th>Agency</th>
-        <th>State</th>
-        <th data-dynatable-column="type">Agency Type</th>
-        <th class="column-number">Threshold</th>
-        <th class="column-number">Population</th>
+        <td><%= procurement.agency %></td>
+        <td><%= procurement.state %></td>
+        <td><%= procurement.type %></td>
+        <td><%= wrap_link_if procurement.discretionary_url, number_to_money(procurement.discretionary_threshold), procurement.discretionary_url, title: "Source of threshold" %></td>
+        <td><%= wrap_link_if procurement.formal_url, number_to_money(procurement.formal_threshold), procurement.formal_url, title: "Source of threshold" %></td>
+        <td><%= number_to_delimited(procurement.population) %></td>
       </tr>
-    </thead>
-    <tbody>
-      <% data.procurement.each do |procurement| %>
-        <tr>
-          <td><%= procurement.agency %></td>
-          <td><%= procurement.state %></td>
-          <td><%= procurement.type %></td>
-          <td class="column-number"><%= wrap_link_if procurement.url, number_to_money(procurement.threshold), procurement.url, title: "Source of threshold" %></td>
-          <td class="column-number"><%= number_to_delimited(procurement.population) %></td>
-        </tr>
-      <% end %>
-    </tbody>
-  </table>
-</div>
+    <% end %>
+  </tbody>
+</table>
