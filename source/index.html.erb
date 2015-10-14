@@ -13,9 +13,14 @@
     without having to solicit competitive bids.
   </p>
 
-  <%= partial "table" %>
+  <section class="data-table">
+    <%= partial "table" %>
+    <%= link_to "Download all data in CSV format", "procurement.csv", class: "btn btn-primary" %>
+  </section>
 
-  <h3><%= link_to "Download all data in CSV format", "procurement.csv", class: "download-csv" %></h3>
-
+  <section class="terminology">
+    <%= partial "terminology" %>
+  </section>
+      
   <%= partial "footer" %>
 </section>

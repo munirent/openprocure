@@ -53,6 +53,13 @@ a {
       margin-top: 1rem;
       margin-left: 0; } }
 
+.btn-primary {
+  background-color: #419641;
+  border-color: #3e8f3e;
+}
+.btn-primary:hover {
+  background-color: #5cb85c;
+}
 .page-header {
   color: #fff;
   text-align: center;
@@ -268,3 +275,6 @@ a {
   margin-right: 12px;
 }
 
+.data-table, .terminology {
+  margin: 40px 0;
+}

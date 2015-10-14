@@ -10,17 +10,17 @@ th {
   color: #000;
 }
 
-.procurement-table .column-number {
+tbody .column-text {
+  text-align: center;
+}
+
+tbody .column-number {
   text-align: right;
 }
 
 .procurement-table tbody td a {
   color: #268bd2;
   text-decoration: underline;
-}
-
-.table-center {
-  text-align: center;
 }
 
 .filters {
