@@ -153,7 +153,7 @@
   type: City
   formal_threshold: $10,000
   contributed_by: Kenny Cunanan
-  population: 90000
+  population: 153961
   updated_at: 2015-01-15
 - agency: City of Mesa
   state: AZ
@@ -223,8 +223,8 @@
   state: GA
   type: City
   formal_threshold: $25,000
-  formal_url: http://savannahga.gov/index.aspx?NID=598
-  population: 142,700
+  formal_url: 'http://savannahga.gov/index.aspx?NID=598'
+  population: 142700
   contributed_by: Carl V. Lewis
   updated_at: 2015-10-14
 - agency: City of Seattle
