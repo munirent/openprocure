@@ -26,8 +26,8 @@
         <td><%= procurement.agency %></td>
         <td><%= procurement.state %></td>
         <td><%= procurement.type %></td>
-        <td><%= wrap_link_if procurement.discretionary_url, number_to_money(procurement.discretionary_threshold), procurement.discretionary_url, title: "Source of threshold" %></td>
-        <td><%= wrap_link_if procurement.formal_url, number_to_money(procurement.formal_threshold), procurement.formal_url, title: "Source of threshold" %></td>
+        <td><%= wrap_link_if procurement.discretionary_url, number_to_money(procurement.discretionary_threshold), procurement.discretionary_url, title: "Source of threshold",  target: "_blank" %></td>
+        <td><%= wrap_link_if procurement.formal_url, number_to_money(procurement.formal_threshold), procurement.formal_url, title: "Source of threshold", target: "_blank" %></td>
         <td><%= number_to_delimited(procurement.population) %></td>
       </tr>
     <% end %>
