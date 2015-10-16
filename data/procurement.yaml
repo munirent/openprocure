@@ -424,3 +424,13 @@
   population: 424,788
   contributed_by: Ryan Wold
   updated_at: 2015-10-13
+- agency: City of Sacramento
+  state: CA
+  type: City
+  discretionary_threshold: $5,000
+  discretionary_url: 'http://portal.cityofsacramento.org/Finance/Procurement/Bid-Information#bidding-options'
+  formal_threshold: $25,000
+  formal_url: 'http://portal.cityofsacramento.org/Finance/Procurement/Bid-Information#bidding-options'
+  population: 479,686
+  contributed_by: Alan Mond
+  updated_at: 2015-10-16
