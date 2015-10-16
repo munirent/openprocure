@@ -58,19 +58,23 @@
 - agency: City of Boston
   state: MA
   type: City
-  formal_threshold: $5,000
+  discretionary_threshold: $5,000
+  discretionary_url: 'http://www.cityofboston.gov/procurement/information/'
+  formal_threshold: $25,000
   formal_url: 'http://www.cityofboston.gov/procurement/information/'
   population: 645,966
   contributed_by: Alan Mond
   updated_at: 2015-10-07
-- agency: City of Charlotte
-  state: NC
-  type: City
-  formal_threshold: $5,000
+- agency: Charlotte County
+  state: FL
+  type: County
+  discretionary_threshold: $5,000
+  discretionary_url: http://www.charlottecountyfl.com/Purchasing/howto.asp
+  formal_threshold: $50,000
   formal_url: http://www.charlottecountyfl.com/Purchasing/howto.asp
-  contributed_by: Kenny Cunanan
-  population: 780000
-  updated_at: 2015-01-15
+  contributed_by: Alan Mond
+  population: 164,736
+  updated_at: 2015-10-16
 - agency: City of Chattanooga
   state: TN
   type: City
@@ -186,6 +190,8 @@
 - agency: City of Philadelphia
   state: PA
   type: City
+  discretionary_threshold: $32,000
+  discretionary_url: 'http://mbec.phila.gov/procurement/forms/Vendorguide.pdf#page=7'
   formal_threshold: $32,000
   formal_url: 'http://mbec.phila.gov/procurement/forms/Vendorguide.pdf#page=7'
   population: 1,560,297
@@ -222,6 +228,8 @@
 - agency: City of Savannah
   state: GA
   type: City
+  discretionary_threshold: $1,000
+  discretionary_url: 'http://savannahga.gov/index.aspx?NID=598'
   formal_threshold: $25,000
   formal_url: 'http://savannahga.gov/index.aspx?NID=598'
   population: 142700
