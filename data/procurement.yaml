@@ -118,6 +118,8 @@
 - agency: City of Jacksonville
   state: FL
   type: City
+  discretionary_threshold: $2,500
+  discretionary_url: http://www.coj.net/departments/central-operations/docs/procurement/procurement-manual-revised-8-2-13(3).aspx#page=7
   formal_threshold: $65,000
   formal_url: http://www.coj.net/departments/central-operations/procurement/bidding-opportunities-(including-capital-improveme.aspx
   population: 842,583
