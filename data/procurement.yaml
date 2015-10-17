@@ -115,6 +115,14 @@
   population: 374,658
   contributed_by: Kenny Cunanan
   updated_at: 2015-01-15
+- agency: City of Jacksonville
+  state: FL
+  type: City
+  formal_threshold: $65,000
+  formal_url: http://www.coj.net/departments/central-operations/procurement/bidding-opportunities-(including-capital-improveme.aspx
+  population: 842,583
+  contributed_by: Carl V. Lewis
+  updated at: 2015-10-17
 - agency: City of Kansas City
   state: KS
   type: City
