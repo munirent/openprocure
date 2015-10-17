@@ -61,7 +61,7 @@ The website is generated using the Middleman tool. The Middleman template is in 
 
 `middleman`
 
-Open your browser to http://0.0.0.0:4567
+Open your browser to http://localhost:4567 or http://127.0.0.1:4567
 
 Edit files and the page will automatically refresh.
 
