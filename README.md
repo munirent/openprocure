@@ -73,7 +73,7 @@ Or push to the master branch and let the auto-deploy do its thing.
 
 ## License
 
-To the extent possible under law, MuniRent has waived all copyright and
+To the extent possible under law, [MuniRent](https://www.munirent.co) has waived all copyright and
 related or neighboring rights to Open Procure. This work is published
 from: United States.
 
