@@ -401,8 +401,10 @@
 - agency: State of Minnesota
   state: MN
   type: State
+  discretionary_threshold: $5,000
+  discretionary_url: https://drive.google.com/file/d/0B7xNKjdrpz2mc1otWUdSNHRmeVhDX2E4RmVSSk5udkR3X2JV/view?usp=sharing#page=9
   formal_threshold: $25,000
-  formal_url: 'https://www.revisor.mn.gov/statutes/?id=16C.06'
+  formal_url: 'https://drive.google.com/file/d/0B7xNKjdrpz2mc1otWUdSNHRmeVhDX2E4RmVSSk5udkR3X2JV/view?usp=sharing#page=9'
   population: 5,457,173
   contributed_by: Alan Mond
   updated_at: 2015-10-08
