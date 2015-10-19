@@ -402,9 +402,9 @@
   state: MN
   type: State
   discretionary_threshold: $5,000
-  discretionary_url: 'https://s3.amazonaws.com/rfplimits/alpmanual.pdf#page=9'
+  discretionary_url: 'https://s3.amazonaws.com/rfplimits/alpmanual.pdf#page=25'
   formal_threshold: $25,000
-  formal_url: 'https://s3.amazonaws.com/rfplimits/alpmanual.pdf#page=9'
+  formal_url: 'https://s3.amazonaws.com/rfplimits/alpmanual.pdf#page=25'
   population: 5,457,173
   contributed_by: Alan Mond
   updated_at: 2015-10-08
