@@ -454,3 +454,13 @@
   population: 479,686
   contributed_by: Alan Mond
   updated_at: 2015-10-16
+- agency: State of Colorado
+  state: CO
+  type: State
+  discretionary_threshold: $25,000
+  discretionary_url: 'https://www.colorado.gov/pacific/sites/default/files/ACCESSColorado%20V10.pdf#page=4'
+  formal_threshold: $25,000
+  formal_url: 'https://www.colorado.gov/pacific/sites/default/files/ACCESSColorado%20V10.pdf#page=4'
+  population: 5,355,866
+  contributed_by: Alan Mond
+  updated_at: 2015-10-20
