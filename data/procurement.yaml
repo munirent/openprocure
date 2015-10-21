@@ -466,13 +466,13 @@
   population: 5,355,866
   contributed_by: Alan Mond
   updated_at: 2015-10-20
-- agency: Detroit Water and Sewer Department
+- agency: Detroit Water and Sewerage Department
   state: MI
   type: Public Utilities
   discretionary_threshold: $5,000
   discretionary_url: 'http://dwsd.org/downloads_n/projects_procurements/procurements/dwsd_procurement_policy.pdf#page=3'
   formal_threshold: $25,000
   formal_url: 'http://dwsd.org/downloads_n/projects_procurements/procurements/dwsd_procurement_policy.pdf#page=3'
-  population: 555,866
+  population: 3,900,000
   contributed_by: Alan Mond
   updated_at: 2015-10-21
