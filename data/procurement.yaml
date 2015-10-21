@@ -10,7 +10,9 @@
 - agency: Salt Lake City
   state: UT
   type: City
-  formal_threshold: $20,000
+  discretionary_threshold: $2,500
+  discretionary_url: 'http://www.slcinfobase.com/ppareo/#!WordDocuments/procurementchapter11smallpurchases.htm'
+  formal_threshold: $40,000
   formal_url: 'http://www.slcinfobase.com/ppareo/#!WordDocuments/procurementchapter11smallpurchases.htm'
   population: 191,180
   contributed_by: Alan Mond
