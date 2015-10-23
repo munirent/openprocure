@@ -478,7 +478,7 @@
   updated_at: 2015-10-21
 - agency: State of California
   state: CA
-  type: state
+  type: State
   discretionary_threshold: $5,000
   discretionary_url: 'https://s3.amazonaws.com/rfplimits/Non-competitive-bids.pdf#page=4'
   formal_threshold: $25,000
