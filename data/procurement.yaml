@@ -151,7 +151,7 @@
 - agency: City of Long Beach
   state: CA
   type: City
-  discretionary threshold: $100,000
+  discretionary_threshold: $100,000
   discretionary_url: 'https://www.municode.com/library/ca/long_beach/codes/municipal_code?nodeId=TIT2ADPE_CH2.84CO_DIVIGESUMA_2.84.010AUPUAGOTCO'
   formal_threshold: $200,000
   formal_url: 'https://www.municode.com/library/ca/long_beach/codes/municipal_code?nodeId=TIT2ADPE_CH2.84CO_DIVIGESUMA_2.84.010AUPUAGOTCO'
