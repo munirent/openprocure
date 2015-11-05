@@ -263,6 +263,16 @@
   contributed_by: Kenny Cunanan
   population: 100000
   updated_at: 2015-01-15
+- agency: State of Georgia
+  state: GA
+  type: State
+  formal_threshold: $25,000
+  formal_url: http://www.busfin.uga.edu/procurement/threshold.html
+  discretionary_threshold: $9,999
+  discretionary_url: http://www.busfin.uga.edu/procurement/threshold.html
+  contributed_by: Carl V. Lewis
+  population: 10100000
+  updated_at: 2015-11-05
 - agency: State of Rhode Island
   state: RI
   type: State
