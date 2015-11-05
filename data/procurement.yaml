@@ -10,7 +10,9 @@
 - agency: Salt Lake City
   state: UT
   type: City
-  formal_threshold: $20,000
+  discretionary_threshold: $2,500
+  discretionary_url: 'http://www.slcinfobase.com/ppareo/#!WordDocuments/procurementchapter11smallpurchases.htm'
+  formal_threshold: $40,000
   formal_url: 'http://www.slcinfobase.com/ppareo/#!WordDocuments/procurementchapter11smallpurchases.htm'
   population: 191,180
   contributed_by: Alan Mond
@@ -118,6 +120,8 @@
 - agency: City of Jacksonville
   state: FL
   type: City
+  discretionary_threshold: $2,500
+  discretionary_url: http://www.coj.net/departments/central-operations/docs/procurement/procurement-manual-revised-8-2-13(3).aspx#page=7
   formal_threshold: $65,000
   formal_url: http://www.coj.net/departments/central-operations/procurement/bidding-opportunities-(including-capital-improveme.aspx
   population: 842,583
@@ -128,8 +132,8 @@
   type: City
   formal_threshold: $20,000
   contributed_by: Kenny Cunanan
-  population: 150000
-  updated_at: 2015-01-15
+  population: 467,007
+  updated_at: 2015-01-23
 - agency: City of Las Vegas
   state: NV
   type: City
@@ -147,7 +151,9 @@
 - agency: City of Long Beach
   state: CA
   type: City
-  formal_threshold: $100,000
+  discretionary_threshold: $100,000
+  discretionary_url: 'https://www.municode.com/library/ca/long_beach/codes/municipal_code?nodeId=TIT2ADPE_CH2.84CO_DIVIGESUMA_2.84.010AUPUAGOTCO'
+  formal_threshold: $200,000
   formal_url: 'https://www.municode.com/library/ca/long_beach/codes/municipal_code?nodeId=TIT2ADPE_CH2.84CO_DIVIGESUMA_2.84.010AUPUAGOTCO'
   population: 469,428
   contributed_by: Alan Mond
@@ -399,8 +405,10 @@
 - agency: State of Minnesota
   state: MN
   type: State
+  discretionary_threshold: $5,000
+  discretionary_url: 'https://s3.amazonaws.com/rfplimits/alpmanual.pdf#page=25'
   formal_threshold: $25,000
-  formal_url: 'https://www.revisor.mn.gov/statutes/?id=16C.06'
+  formal_url: 'https://s3.amazonaws.com/rfplimits/alpmanual.pdf#page=25'
   population: 5,457,173
   contributed_by: Alan Mond
   updated_at: 2015-10-08
@@ -450,3 +458,33 @@
   population: 479,686
   contributed_by: Alan Mond
   updated_at: 2015-10-16
+- agency: State of Colorado
+  state: CO
+  type: State
+  discretionary_threshold: $5,000
+  discretionary_url: 'https://www.colorado.gov/pacific/sites/default/files/ACCESSColorado%20V10.pdf#page=4'
+  formal_threshold: $25,000
+  formal_url: 'https://www.colorado.gov/pacific/sites/default/files/ACCESSColorado%20V10.pdf#page=4'
+  population: 5,355,866
+  contributed_by: Alan Mond
+  updated_at: 2015-10-20
+- agency: Detroit Water and Sewerage Department
+  state: MI
+  type: Public Utilities
+  discretionary_threshold: $5,000
+  discretionary_url: 'http://dwsd.org/downloads_n/projects_procurements/procurements/dwsd_procurement_policy.pdf#page=3'
+  formal_threshold: $25,000
+  formal_url: 'http://dwsd.org/downloads_n/projects_procurements/procurements/dwsd_procurement_policy.pdf#page=3'
+  population: 3,900,000
+  contributed_by: Alan Mond
+  updated_at: 2015-10-21
+- agency: State of California
+  state: CA
+  type: State
+  discretionary_threshold: $5,000
+  discretionary_url: 'https://s3.amazonaws.com/rfplimits/Non-competitive-bids.pdf#page=4'
+  formal_threshold: $25,000
+  formal_url: 'https://s3.amazonaws.com/rfplimits/Non-competitive-bids.pdf#page=3'
+  population: 38,802,500
+  contributed_by: Alan Mond
+  updated at: 2015-10-23
