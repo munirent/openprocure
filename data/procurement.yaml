@@ -498,3 +498,13 @@
   population: 38,802,500
   contributed_by: Alan Mond
   updated at: 2015-10-23
+- agency: Sacramento Municipal Utility District (SMUD)
+  state: CA
+  type: Utility District
+  discretionary_threshold: $8,200
+  discretionary_url: 'https://www.smud.org/en/do-business-with-smud/selling-to-smud/how-we-award-contracts.htm'
+  formal_threshold: $82,000
+  formal_url: 'https://www.smud.org/en/do-business-with-smud/selling-to-smud/how-we-award-contracts.htm'
+  population: 2,363,791
+  contributed_by: Alan Mond
+  updated at: 2015-11-18
