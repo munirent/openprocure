@@ -28,9 +28,16 @@ We have a [feature roadmap page][Roadmap]. Feature/ideas can be added there.
 <a name="search"></a>
 ### How to search for procurement thresholds
 
-Procurement thresholds are not easily accessible through government websites. Here are some tips on finding them.
+Procurement thresholds are not easily accessible through government websites, but the process can generally be expedited by using simple search terms or looking for navigation section headers such as `` "DOING BUSINESS WITH THE CITY" `` or `` PURCHASING RULES AND RESTRICTIONS `` Here are some tips on finding the proper thresholds:
 
-*To be written*
++ First, use some basic boolean operators in a simple Google search. For example, if you're looking for the procurement thresholds for, say, Trenton, NJ, you'll enter something like ``"procurement threshold" AND "trenton" AND "NJ." `` (note: *the term 'procurement' may be substituted for 'purchasing' or 'departmental spending,' while 'threshold' could very likely be found entered as simply 'limits' or, less frequently, terms such as 'petty cash fund'*.) The same strategy is helpful if the governmental website in question has a strong in-site search bar.
+
+
++ It may be likely that the precise thresholds for bidding and discretionary spending do not appear readily in a visiible spot on a government's website in plain text. Often, you may need to search or browse to find a much longer document with a title along the lines of "Ethics Code" or "Financial Procedure Code." Almost always, these documents will be in PDF.
+
++ If you've found what appears to be a lengthy document of various government rules and codes, locating the procurement data can often be expedited  by using your browser's find text function (usually available by navigating in browser to ``Edit >> Find``). Using the find term field, enter words such as "purchasing" or "thresholds" or "discretionary." **Pro-tip: Searching for the dollar symbol ($) is a handy trick for locating precise threshold data in many cases.**
+
+*More to be added to this section.*
 
 <a name="add-data"></a>
 ### Adding data to Open Procure
