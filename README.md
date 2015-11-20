@@ -20,10 +20,13 @@ Visit our [GitHub Issues][Issues] page to see a list of open actionable items to
 
 We have a [feature roadmap page][Roadmap]. Feature/ideas can be added there.
 
+:mount_fuji: Want to collaborate with others on a task?  Add it to **[Task Mountain][TM]** so other people can work on it!
+
 [Open Procure]: http://openprocure.us
 [Issues]: https://github.com/munirent/openprocure/issues
 [PR]: https://github.com/munirent/openprocure/pulls
 [Roadmap]: https://github.com/munirent/openprocure/wiki/Feature-Roadmap
+[TM]: http://www.taskmountain.com/
 
 <a name="search"></a>
 ### How to search for procurement thresholds
