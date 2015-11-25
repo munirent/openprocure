@@ -508,3 +508,13 @@
   population: 2,363,791
   contributed_by: Alan Mond
   updated at: 2015-11-18
+- agency: Michigan Department of Transportation
+  state: MI
+  type: State
+  discretionary_threshold: $3,000
+  discretionary_url: 'http://www.michigan.gov/documents/mdot/mdot_ptd_procurement_guidelines_344078_7.pdf#page=6'
+  formal_threshold: $100,000
+  formal_url: 'http://www.michigan.gov/documents/mdot/mdot_ptd_procurement_guidelines_344078_7.pdf#page=6'
+  population: 9,909,877
+  contributed_by: Julien Vanier
+  updated at: 2015-11-25
