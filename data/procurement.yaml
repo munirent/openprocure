@@ -203,8 +203,8 @@
   updated_at: 2015-01-15
   agency: City of Madison
   state: WI
-  discretionary_threshold: $5,000 
-  discretionary_URL: 'https://www.cityofmadison.com/finance/documents/VendorsGuide.pdf#page=3'
+  discretionary_threshold: $5,000
+  discretionary_url: 'https://www.cityofmadison.com/finance/documents/VendorsGuide.pdf#page=3'
   formal_threshold: $25,000
   formal_url: 'https://www.cityofmadison.com/finance/documents/VendorsGuide.pdf#page=3'
   population: 243,343 (2013)
