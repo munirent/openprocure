@@ -127,6 +127,14 @@
   population: 842,583
   contributed_by: Carl V. Lewis
   updated at: 2015-10-17
+- agency: City of Kalamazoo
+  state: MI
+  type: City
+  formal_threshold: $25,000
+  formal_url: http://www.kalamazoocity.org/docucmentlibrary/bidding-opportunities/4111-howtodobusinesswiththecity2014/file#page1
+  contributed_by: Alan Mond
+  population: 75,548
+  updated_at: 2016-01-5
 - agency: City of Kansas City
   state: KS
   type: City
@@ -207,7 +215,7 @@
   discretionary_url: 'https://www.cityofmadison.com/finance/documents/VendorsGuide.pdf#page=3'
   formal_threshold: $25,000
   formal_url: 'https://www.cityofmadison.com/finance/documents/VendorsGuide.pdf#page=3'
-  population: 243,343 (2013)
+  population: 243,343
   contributed_by: Carl V. Lewis
   updated at: 2015-10-17
 - agency: City of Philadelphia
