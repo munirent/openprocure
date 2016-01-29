@@ -1,6 +1,8 @@
 # Open Procure
 ## Welcome!
 
+[![Join the chat at https://gitter.im/munirent/openprocure](https://badges.gitter.im/munirent/openprocure.svg)](https://gitter.im/munirent/openprocure?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Open Procure is an **online open data repository of government purchasing information across the United States**.
 
 Our goal is to make municipal, county-level, state and federal purchasing easily accessible for everyone. It is where government officials, technologists, and active citizens can work together to make our purchasing processes more transparent.
