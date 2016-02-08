@@ -535,3 +535,14 @@
   population: 9,909,877
   contributed_by: Julien Vanier
   updated at: 2015-11-25
+- agency: City of Fort Wayne
+  state: IN
+  type: City
+  discretionary_threshold: $5,000
+  discretionary_url: 'http://www.cityoffortwayne.org/images/stories/finance_and_administration/purchasing/docs/how_to_do_business_with_the_city_brochure10.pdf'
+  formal_threshold: $25,000
+  formal_url: 'http://www.cityoffortwayne.org/images/stories/finance_and_administration/purchasing/docs/how_to_do_business_with_the_city_brochure10.pdf'
+  population: 256,496
+  contributed_by: Alan Mond
+  updated at: 2016-02-07
+  
