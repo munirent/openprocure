@@ -2,6 +2,7 @@
 - agency: County of Sacramento
   state: CA
   type: County
+  discretionary_threshold: $5,000
   formal_threshold: $100,000
   formal_url: 'http://www.dgs.saccounty.net/capsd/Pages/County-Purchasing-Code.aspx#2.56.250'
   population: 1,418,788
