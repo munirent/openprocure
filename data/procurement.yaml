@@ -546,4 +546,14 @@
   population: 256,496
   contributed_by: Alan Mond
   updated at: 2016-02-07
+- agency: City of Cleveland
+  state: OH
+  type: City
+  discretionary_threshold: $1,000
+  discretionary_url: 'http://library.amlegal.com/nxt/gateway.dll/Ohio/cleveland_oh/partoneadministrativecode/titlexvpurchasesandcontracts/chapter181purchasesandsupplies?f=templates$fn=default.htm$3.0$vid=amlegal:cleveland_oh$anc=JD_Chapter181'
+  formal_threshold: $50,000
+  formal_url: 'http://library.amlegal.com/nxt/gateway.dll/Ohio/cleveland_oh/partoneadministrativecode/titlexvpurchasesandcontracts/chapter181purchasesandsupplies?f=templates$fn=default.htm$3.0$vid=amlegal:cleveland_oh$anc=JD_Chapter181'
+  population: 400000
+  contributed_by: Eric Niederhelman
+  updated at: 2016-02-15
   
