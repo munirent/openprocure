@@ -556,4 +556,10 @@
   population: 400000
   contributed_by: Eric Niederhelman
   updated at: 2016-02-15
+- agency: City of St. Louis
+  state: MO
+  type: City
+  discretionary threshold: $5,000
+  discretionary URL: http://www.slpl.lib.mo.us/cco/ords/data/ord4102.htm
+  population: 331,287
   
