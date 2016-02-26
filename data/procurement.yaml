@@ -559,9 +559,20 @@
 - agency: City of St. Louis
   state: MO
   type: City
-  discretionary_threshold: $5,000
-  discretionary_URL: http://www.slpl.lib.mo.us/cco/ords/data/ord4102.htm
+  discretionary_threshold: $500
+  discretionary_url: http://www.slpl.lib.mo.us/cco/ords/data/ord4102.htm
+  formal_threshold: $5,000
+  formal_url: https://www.stlouis-mo.gov/government/departments/sldc/upload/City-of-St-Louis-Disparity-Study-Final-5-11-15.pdf#page=18
   population: 331,287
-  contributed_by: Carl Lewis
+  contributed_by: Carl V. Lewis
   updated at: 2016-02-23
-  
+- agency: St. Louis County
+  state: MO
+  type: County
+  discretionary_threshold: $5,000
+  discretionary_url: http://www.stlouisco.com/yourgovernment/countydepartments/procurement/howtodobusinesswithus
+  formal_threshold: $25,000
+  formal_url: http://www.stlouisco.com/yourgovernment/countydepartments/procurement/howtodobusinesswithus
+  population: 1,000,100 
+  contributed_by: Carl V. Lewis
+  updated at: 2016-02-23
