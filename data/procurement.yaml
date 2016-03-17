@@ -576,3 +576,13 @@
   population: 1,000,100 
   contributed_by: Carl V. Lewis
   updated at: 2016-02-23
+- agency: Washington Department of Transportation
+  state: WA
+  type: State
+  discretionary_threshold: $5,000
+  discretionary_url: http://www.des.wa.gov/SiteCollectionDocuments/ContractingPurchasing/Washington-Purchasing-Manual.pdf#page=9
+  formal_threshold: $50,000
+  formal_url: http://www.des.wa.gov/SiteCollectionDocuments/ContractingPurchasing/Washington-Purchasing-Manual.pdf#page=9
+  population: 7,062,100 
+  contributed_by: Alan Mond
+  updated at: 2016-03-17
