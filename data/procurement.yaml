@@ -586,3 +586,13 @@
   population: 7,062,100 
   contributed_by: Alan Mond
   updated at: 2016-03-17
+- agency: City of Portland
+  state: OR
+  type: City
+  discretionary_threshold: $5,000
+  discretionary_url: http://www.portlandoregon.gov/brfs/article/74585
+  formal_threshold: $150,000
+  formal_url: http://www.portlandoregon.gov/brfs/article/74585
+  population: 609,456
+  contributed_by: David Heller
+  updated at: 2016-07-09
