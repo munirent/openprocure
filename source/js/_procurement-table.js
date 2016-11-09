@@ -50,17 +50,23 @@ $(document).ready(function() {
     params: {
       records: "agencies"
     },
+    table: {
+      copyHeaderAlignment: false,
+      copyHeaderClass: true,
+    },
     readers: {
-      threshold: parseFormattedNumber("threshold"),
+      discretionaryThreshold: parseFormattedNumber("discretionaryThreshold"),
+      formalThreshold: parseFormattedNumber("formalThreshold"),
       population: parseFormattedNumber("population")
     },
     writers: {
-      threshold: writeFormattedNumber("threshold"),
+      discretionaryThreshold: writeFormattedNumber("discretionaryThreshold"),
+      formalThreshold: writeFormattedNumber("formalThreshold"),
       population: writeFormattedNumber("population")
     },
     inputs: {
       queries: $(
-        "#filter-state, #filter-type, #filter-threshold"
+        "#filter-state, #filter-type"
       )
     }
   });

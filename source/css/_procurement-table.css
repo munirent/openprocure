@@ -10,7 +10,15 @@ th {
   color: #000;
 }
 
-.procurement-table .column-number {
+tbody .column-text {
+  text-align: center;
+}
+
+tbody .column-link {
+  text-align: center;
+}
+
+tbody .column-number {
   text-align: right;
 }
 
@@ -19,8 +27,9 @@ th {
   text-decoration: underline;
 }
 
-.table-center {
-  text-align: center;
+.procurement-table tbody td a:hover {
+  color: #0738A1;
+  text-decoration: underline;
 }
 
 .filters {
