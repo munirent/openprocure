@@ -355,6 +355,16 @@
   contributed_by: Kenny Cunanan
   population: 131000
   updated_at: 2015-01-15
+- agency: State of North Carolina
+  state: NC
+  type: State
+  discretionary_threshold: $25,000
+  discretionary_url: 'http://www.ncleg.net/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_143/Article_3.html'
+  formal_threshold: $500,000
+  formal_url: 'http://www.ncleg.net/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_143/Article_3.html'
+  population: 9,994,000
+  contributed_by: Carl V. LEwis
+  updated_at: 2016-11-10
 - agency: City of Oklahoma City
   state: OK
   type: City
