@@ -260,13 +260,6 @@
 - agency: City of Savannah
   state: GA
   type: City
-<<<<<<< HEAD
-  threshold: $25,000
-  population: 142,700
-  url: 'http://savannahga.gov/index.aspx?NID=598'
-  contributed_by: Carl V. Lewis
-  updated_at: 2015-11-14
-=======
   discretionary_threshold: $1,000
   discretionary_url: 'http://savannahga.gov/index.aspx?NID=598'
   formal_threshold: $25,000
@@ -274,7 +267,6 @@
   population: 142700
   contributed_by: Carl V. Lewis
   updated_at: 2015-10-14
->>>>>>> munirent/master
 - agency: City of Seattle
   state: WA
   type: City
@@ -363,7 +355,7 @@
   formal_threshold: $500,000
   formal_url: 'http://www.ncleg.net/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_143/Article_3.html'
   population: 9,994,000
-  contributed_by: Carl V. LEwis
+  contributed_by: Carl V. Lewis
   updated_at: 2016-11-10
 - agency: City of Oklahoma City
   state: OK
