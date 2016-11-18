@@ -128,16 +128,6 @@
   population: 374,658
   contributed_by: Kenny Cunanan
   updated_at: 2015-01-15
-- agency: State of Georgia
-  state: GA
-  type: State
-  discretionary_threshold: $5,000
-  discretionary_url: http://doas.ga.gov/assets/State%20Purchasing/PCard%20Marketplace%20Documents/PCard_Policy.pdf#page=7
-  formal_threshold: $25,000
-  formal_url: http://doas.ga.gov/assets/State%20Purchasing/PCard%20Marketplace%20Documents/PCard_Policy.pdf#page=7
-  population: 10,100,000
-  contributed_by: Carl V. Lewis
-  updated at: 2016-11-12
 - agency: City of Jacksonville
   state: FL
   type: City
