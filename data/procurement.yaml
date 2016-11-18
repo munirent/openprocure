@@ -18,6 +18,16 @@
   population: 191,180
   contributed_by: Alan Mond
   updated_at: 2015-10-07
+- agency: State of Arizona
+  state: AZ
+  type: State
+  discretionary_threshold: $10,000
+  discretionary_url: 'https://spo.az.gov/sites/default/files/documents/files/Arizona%20Procurement%20Code%20-%20July%202015.pdf#page=61'
+  formal_threshold: $40,000
+  formal_url: 'http://www.tusd1.org/contents/depart/purchase/documents/DoingBusinessWithPublicEntities.pdf#page=5'
+  population: 6,731,000
+  contributed_by: Carl V. Lewis
+  updated_at: 2016-11-18
 - agency: City of Alameda
   state: CA
   type: City
