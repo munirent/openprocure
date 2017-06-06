@@ -616,3 +616,13 @@
   population: 609,456
   contributed_by: David Heller
   updated at: 2016-07-09
+  - agency: City of Lakeland
+  state: FL
+  type: City
+  discretionary_threshold: $1,500
+  discretionary_url: http://www.lakelandgov.net/portals/purchasing/Documents/purchasingmanual.pdf
+  formal_threshold: $350,000
+  formal_url: http://www.lakelandgov.net/portals/purchasing/Documents/purchasingmanual.pdf
+  population: 102,346
+  contributed_by: David Heller
+  updated at: 2017-06-05
