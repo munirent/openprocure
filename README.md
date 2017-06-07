@@ -1,4 +1,4 @@
-![](http://cvlassets.s3.amazonaws.com/Slice%202-1.png)
+![](http://cvlassets.s3.amazonaws.com/OpenProcu.svg)
 # Open Procure
 ## Welcome!
 
