@@ -312,15 +312,18 @@
   state: VA
   type: City
   formal_threshold: $50,000
+  formal_url: https://www.alexandriava.gov/purchasing/info/default.aspx?id=2106#II_Q3
+  discretionary_threshold: $20,000
+  discretionary_url: https://www.alexandriava.gov/purchasing/info/default.aspx?id=2106#II_Q4
   contributed_by: Kenny Cunanan
-  population: 4031000
-  updated_at: 2015-01-15
+  population: 153511
+  updated_at: 2017-06-08
 - agency: City of Colorado Springs
   state: CO
   type: City
   formal_threshold: $100,000
   contributed_by: Kenny Cunanan
-  population: 432000
+  population: 456562
   updated_at: 2015-01-15
 - agency: City of Danbury
   state: CT
